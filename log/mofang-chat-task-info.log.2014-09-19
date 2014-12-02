@@ -1,0 +1,172 @@
+2014-09-19 15:00:46 | task.info | INFO  |92 | TaskDeleteAction | 0 | url=/task/delete | atom=null | postData={
+	"task_id" : 1000		
+}&response={"message":"OK","code":0}
+2014-09-19 15:06:35 | task.info | INFO  |57 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+	"name" : "xxx",
+	"type" : 1,
+	"event" : 1000,
+	"description" : "xxxxx",
+	"limit_level" : 1,
+	"limit_times" : 1,
+	"event_param" : 5,
+	"reward_coin" : 0.1,
+	"reward_diamond" : 0.1,
+	"reward_exp" : 10			
+}&response={"message":"OK","code":0}
+2014-09-19 15:11:31 | task.info | INFO  |73 | TaskUpdateAction | 0 | url=/task/update | atom=null | postData={
+	"task_id" : 1000,
+	"name" : "xxx1",
+	"description" : "xxxxx1",
+	"limit_level" : 2,
+	"limit_times" : 2,
+	"event_param" : 10,
+	"reward_coin" : 0.2,
+	"reward_diamond" : 0.2,
+	"reward_exp" : 20			
+}&response={"message":"OK","code":0}
+2014-09-19 15:18:18 | task.info | INFO  |1 | TaskUpdateAction | 402 | url=/task/update | atom=null | postData={
+	"name" : "注册送大礼",
+	"type" : 2,
+	"event" : 10001,
+	"description" : "注册送大礼哦",
+	"limit_level" : 1,
+	"limit_times" : 1,
+	"event_param" : 1,
+	"reward_coin" : 0.1,
+	"reward_diamond" : 0,
+	"reward_exp" : 10			
+}&response={"message":"缺少必要参数","code":402}
+2014-09-19 15:18:25 | task.info | INFO  |38 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+	"name" : "注册送大礼",
+	"type" : 2,
+	"event" : 10001,
+	"description" : "注册送大礼哦",
+	"limit_level" : 1,
+	"limit_times" : 1,
+	"event_param" : 1,
+	"reward_coin" : 0.1,
+	"reward_diamond" : 0,
+	"reward_exp" : 10			
+}&response={"message":"OK","code":0}
+2014-09-19 15:20:02 | task.info | INFO  |43 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+	"name" : "注册送大礼",
+	"type" : 2,
+	"event" : 10001,
+	"description" : "注册送大礼哦",
+	"limit_level" : 1,
+	"limit_times" : 1,
+	"event_param" : 1,
+	"reward_coin" : 0.1,
+	"reward_diamond" : 0,
+	"reward_exp" : 10			
+}&response={"message":"OK","code":0}
+2014-09-19 15:27:23 | task.info | INFO  |2 | TaskAddAction | 400 | url=/task/add | atom=null | postData={
+	"name" : "首次登陆",
+	"type" : 2,
+	"event" : 10002,
+	"description" : "首次登录送大礼哦",
+	"limit_level" : 0,
+	"limit_times" : 1,
+	"event_param" : 1,
+	"reward_coin" : 0.1,
+	"reward_diamond" : 0,
+	"reward_exp" : 10			
+}&response={"message":"请选择任务限制等级","code":400}
+2014-09-19 15:31:25 | task.info | INFO  |112 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+	"name" : "首次登陆",
+	"type" : 2,
+	"event" : 10002,
+	"description" : "首次登录送大礼哦",
+	"limit_level" : 0,
+	"limit_times" : 1,
+	"event_param" : 1,
+	"reward_coin" : 0.1,
+	"reward_diamond" : 0,
+	"reward_exp" : 10			
+}&response={"message":"OK","code":0}
+2014-09-19 15:32:48 | task.info | INFO  |51 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+	"name" : "完善信息",
+	"type" : 2,
+	"event" : 10003,
+	"description" : "完善个人信息，主玩游戏等",
+	"limit_level" : 1,
+	"limit_times" : 1,
+	"event_param" : 1,
+	"reward_coin" : 0.05,
+	"reward_diamond" : 0,
+	"reward_exp" : 10			
+}&response={"message":"OK","code":0}
+2014-09-19 15:33:19 | task.info | INFO  |46 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+	"name" : "抢个礼包",
+	"type" : 2,
+	"event" : 10004,
+	"description" : "抢1个礼包",
+	"limit_level" : 1,
+	"limit_times" : 1,
+	"event_param" : 1,
+	"reward_coin" : 0.05,
+	"reward_diamond" : 0,
+	"reward_exp" : 10			
+}&response={"message":"OK","code":0}
+2014-09-19 15:33:56 | task.info | INFO  |34 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+	"name" : "找盆友",
+	"type" : 2,
+	"event" : 10005,
+	"description" : "加1个好朋友",
+	"limit_level" : 1,
+	"limit_times" : 1,
+	"event_param" : 1,
+	"reward_coin" : 0.1,
+	"reward_diamond" : 0,
+	"reward_exp" : 10			
+}&response={"message":"OK","code":0}
+2014-09-19 15:34:44 | task.info | INFO  |44 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+	"name" : "我有人罩",
+	"type" : 2,
+	"event" : 10006,
+	"description" : "加入1个公会",
+	"limit_level" : 1,
+	"limit_times" : 1,
+	"event_param" : 1,
+	"reward_coin" : 0.2,
+	"reward_diamond" : 0,
+	"reward_exp" : 20			
+}&response={"message":"OK","code":0}
+2014-09-19 15:35:39 | task.info | INFO  |41 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+	"name" : "32个赞",
+	"type" : 1,
+	"event" : 10007,
+	"description" : "feed点赞32次",
+	"limit_level" : 1,
+	"limit_times" : 1,
+	"event_param" : 32,
+	"reward_coin" : 0.2,
+	"reward_diamond" : 0,
+	"reward_exp" : 8			
+}&response={"message":"OK","code":0}
+2014-09-19 15:41:24 | task.info | INFO  |42 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+	"name" : "晒装备积分",
+	"type" : 1,
+	"event" : 10008,
+	"description" : "发布一个feed",
+	"limit_level" : 1,
+	"limit_times" : 1,
+	"event_param" : 1,
+	"reward_coin" : 0.2,
+	"reward_diamond" : 0,
+	"reward_exp" : 8			
+}&response={"message":"OK","code":0}
+2014-09-19 15:42:37 | task.info | INFO  |32 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+	"name" : "评论5次",
+	"type" : 1,
+	"event" : 10009,
+	"description" : "feed评论5次",
+	"limit_level" : 1,
+	"limit_times" : 1,
+	"event_param" : 5,
+	"reward_coin" : 0.2,
+	"reward_diamond" : 0,
+	"reward_exp" : 8			
+}&response={"message":"OK","code":0}
+2014-09-19 15:46:40 | task.info | INFO  |75 | UserTaskListAction | 0 | url=/task/list?atom=dWlkPTYwODM3NSZzaWQ9OGI1OGU4NDkzNmMzNjE3NCZjYz0xMDAwMCZwZj1hbmRyb2lkJmNuPVdJ%250ARkkmY3Y9TUdBXzEuMS4yLjAwX0FfQ04mZHQ9WGlhb21pSE0gTk9URSAxVEQmaW1laT04NjQzNzUw%250AMjM5MzE2NjEmaW1zaT0mcG49%250A | atom=uid=608375&sid=8b58e84936c36174&cc=10000&pf=android&cn=WIFI&cv=MGA_1.1.2.00_A_CN&dt=XiaomiHM NOTE 1TD&imei=864375023931661&imsi=&pn= | postData=null&response={"message":"OK","data":[{"completed_count":0,"limit_level":1,"description":"注册送大礼哦","name":"注册送大礼","is_completed":false,"event_param":1,"task_id":10001,"limit_times":1,"type":2},{"completed_count":0,"limit_level":0,"description":"首次登录送大礼哦","name":"首次登陆","is_completed":false,"event_param":1,"task_id":10002,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"加1个好朋友","name":"找盆友","is_completed":false,"event_param":1,"task_id":10005,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"加入1个公会","name":"我有人罩","is_completed":false,"event_param":1,"task_id":10006,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"完善个人信息，主玩游戏等","name":"完善信息","is_completed":false,"event_param":1,"task_id":10003,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"抢1个礼包","name":"抢个礼包","is_completed":false,"event_param":1,"task_id":10004,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"feed评论5次","name":"评论5次","is_completed":false,"event_param":5,"task_id":10009,"limit_times":1,"type":1},{"completed_count":0,"limit_level":1,"description":"feed点赞32次","name":"32个赞","is_completed":false,"event_param":32,"task_id":10007,"limit_times":1,"type":1},{"completed_count":0,"limit_level":1,"description":"发布一个feed","name":"晒装备积分","is_completed":false,"event_param":1,"task_id":10008,"limit_times":1,"type":1}],"code":0}
+2014-09-19 15:46:53 | task.info | INFO  |44 | UserTaskListAction | 0 | url=/task/list?atom=dWlkPTYwODM3NSZzaWQ9OGI1OGU4NDkzNmMzNjE3NCZjYz0xMDAwMCZwZj1hbmRyb2lkJmNuPVdJ%250ARkkmY3Y9TUdBXzEuMS4yLjAwX0FfQ04mZHQ9WGlhb21pSE0gTk9URSAxVEQmaW1laT04NjQzNzUw%250AMjM5MzE2NjEmaW1zaT0mcG49%250A | atom=uid=608375&sid=8b58e84936c36174&cc=10000&pf=android&cn=WIFI&cv=MGA_1.1.2.00_A_CN&dt=XiaomiHM NOTE 1TD&imei=864375023931661&imsi=&pn= | postData=null&response={"message":"OK","data":[{"completed_count":0,"limit_level":1,"description":"注册送大礼哦","name":"注册送大礼","is_completed":false,"event_param":1,"task_id":10001,"limit_times":1,"type":2},{"completed_count":0,"limit_level":0,"description":"首次登录送大礼哦","name":"首次登陆","is_completed":false,"event_param":1,"task_id":10002,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"加1个好朋友","name":"找盆友","is_completed":false,"event_param":1,"task_id":10005,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"加入1个公会","name":"我有人罩","is_completed":false,"event_param":1,"task_id":10006,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"完善个人信息，主玩游戏等","name":"完善信息","is_completed":false,"event_param":1,"task_id":10003,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"抢1个礼包","name":"抢个礼包","is_completed":false,"event_param":1,"task_id":10004,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"feed评论5次","name":"评论5次","is_completed":false,"event_param":5,"task_id":10009,"limit_times":1,"type":1},{"completed_count":0,"limit_level":1,"description":"feed点赞32次","name":"32个赞","is_completed":false,"event_param":32,"task_id":10007,"limit_times":1,"type":1},{"completed_count":0,"limit_level":1,"description":"发布一个feed","name":"晒装备积分","is_completed":false,"event_param":1,"task_id":10008,"limit_times":1,"type":1}],"code":0}

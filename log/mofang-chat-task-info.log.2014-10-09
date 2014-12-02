@@ -1,0 +1,454 @@
+2014-10-09 16:23:41 | task.info | INFO  |190 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+    "name" : "注册送大礼",
+    "type" : 2,
+    "event" : 101,
+    "description" : "注册送大礼",
+    "limit_level" : 1,
+    "limit_times" : 1,
+    "event_param" : 1,
+    "reward_coin" : 10,
+    "reward_diamond" : 0,
+    "reward_exp" : 10
+}&response={"message":"OK","code":0}
+2014-10-09 16:25:05 | task.info | INFO  |1039 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+    "name" : "首次发帖",
+    "type" : 2,
+    "event" : 102,
+    "description" : "首次发帖",
+    "limit_level" : 1,
+    "limit_times" : 1,
+    "event_param" : 1,
+    "reward_coin" : 10,
+    "reward_diamond" : 0,
+    "reward_exp" : 10
+}&response={"message":"OK","code":0}
+2014-10-09 16:25:19 | task.info | INFO  |587 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+    "name" : "首次点赞",
+    "type" : 2,
+    "event" : 103,
+    "description" : "首次点赞",
+    "limit_level" : 1,
+    "limit_times" : 1,
+    "event_param" : 1,
+    "reward_coin" : 10,
+    "reward_diamond" : 0,
+    "reward_exp" : 5
+}&response={"message":"OK","code":0}
+2014-10-09 16:25:28 | task.info | INFO  |942 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+    "name" : "首次回复",
+    "type" : 2,
+    "event" : 104,
+    "description" : "首次回复",
+    "limit_level" : 1,
+    "limit_times" : 1,
+    "event_param" : 1,
+    "reward_coin" : 10,
+    "reward_diamond" : 0,
+    "reward_exp" : 10
+}&response={"message":"OK","code":0}
+2014-10-09 16:25:37 | task.info | INFO  |565 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+    "name" : "绑定手机",
+    "type" : 2,
+    "event" : 105,
+    "description" : "绑定手机才能愉快玩耍~",
+    "limit_level" : 1,
+    "limit_times" : 1,
+    "event_param" : 1,
+    "reward_coin" : 10,
+    "reward_diamond" : 0,
+    "reward_exp" : 5
+}&response={"message":"OK","code":0}
+2014-10-09 16:25:48 | task.info | INFO  |1508 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+    "name" : "找盆友",
+    "type" : 2,
+    "event" : 106,
+    "description" : "加1个好朋友",
+    "limit_level" : 1,
+    "limit_times" : 1,
+    "event_param" : 1,
+    "reward_coin" : 10,
+    "reward_diamond" : 0,
+    "reward_exp" : 10
+}&response={"message":"OK","code":0}
+2014-10-09 16:25:56 | task.info | INFO  |179 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+    "name" : "我有人罩",
+    "type" : 2,
+    "event" : 107,
+    "description" : "加入1个公会",
+    "limit_level" : 1,
+    "limit_times" : 1,
+    "event_param" : 1,
+    "reward_coin" : 20,
+    "reward_diamond" : 0,
+    "reward_exp" : 20
+}&response={"message":"OK","code":0}
+2014-10-09 16:26:11 | task.info | INFO  |6339 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+    "name" : "登录送魔币",
+    "type" : 1,
+    "event" : 108,
+    "description" : "登录就送！你没看错！",
+    "limit_level" : 1,
+    "limit_times" : 1,
+    "event_param" : 1,
+    "reward_coin" : 8,
+    "reward_diamond" : 0,
+    "reward_exp" : 20
+}&response={"message":"OK","code":0}
+2014-10-09 16:26:21 | task.info | INFO  |1435 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+    "name" : "32个赞！",
+    "type" : 1,
+    "event" : 103,
+    "description" : "feed点赞32次！",
+    "limit_level" : 1,
+    "limit_times" : 1,
+    "event_param" : 32,
+    "reward_coin" : 8,
+    "reward_diamond" : 0,
+    "reward_exp" : 20
+}&response={"message":"OK","code":0}
+2014-10-09 16:26:31 | task.info | INFO  |729 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+    "name" : "晒装备积分",
+    "type" : 1,
+    "event" : 102,
+    "description" : "发布1个feed",
+    "limit_level" : 1,
+    "limit_times" : 1,
+    "event_param" : 1,
+    "reward_coin" : 8,
+    "reward_diamond" : 0,
+    "reward_exp" : 20
+}&response={"message":"OK","code":0}
+2014-10-09 16:26:40 | task.info | INFO  |174 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+    "name" : "评论5次",
+    "type" : 1,
+    "event" : 104,
+    "description" : "feed评论5次",
+    "limit_level" : 1,
+    "limit_times" : 1,
+    "event_param" : 5,
+    "reward_coin" : 8,
+    "reward_diamond" : 0,
+    "reward_exp" : 20
+}&response={"message":"OK","code":0}
+2014-10-09 16:39:19 | task.info | INFO  |1079 | UserTaskListAction | 0 | url=/task/list?atom=dWlkPTYwODU5OCZzaWQ9ZTNjMmJiMmIzOWE3OGU3MCZjYz0xMDAxNyZwZj1hbmRyb2lkJmNuPVdJ%250ARkkmY3Y9TUdBXzEuMS41LjAwX0FfQ04mZHQ9WGlhb21pTUkgNExURSZpbWVpPTg2NTM3MjAyMTE3%250AOTk2MiZpbXNpPTQ2MDAwMTkwMzEwOTcxMyZwbj0%253D%250A | atom=uid=608598&sid=e3c2bb2b39a78e70&cc=10017&pf=android&cn=WIFI&cv=MGA_1.1.5.00_A_CN&dt=XiaomiMI 4LTE&imei=865372021179962&imsi=460001903109713&pn= | postData=null&response={"message":"OK","data":[{"completed_count":0,"limit_level":1,"description":"首次点赞","name":"首次点赞","is_completed":false,"event_param":1,"task_id":1003,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"首次回复","name":"首次回复","is_completed":false,"event_param":1,"task_id":1004,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"注册送大礼","name":"注册送大礼","is_completed":false,"event_param":1,"task_id":1001,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"首次发帖","name":"首次发帖","is_completed":false,"event_param":1,"task_id":1002,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"加入1个公会","name":"我有人罩","is_completed":false,"event_param":1,"task_id":1007,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"登录就送！你没看错！","name":"登录送魔币","is_completed":false,"event_param":1,"task_id":1008,"limit_times":1,"type":1},{"completed_count":0,"limit_level":1,"description":"绑定手机才能愉快玩耍~","name":"绑定手机","is_completed":false,"event_param":1,"task_id":1005,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"加1个好朋友","name":"找盆友","is_completed":false,"event_param":1,"task_id":1006,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"feed点赞32次！","name":"32个赞！","is_completed":false,"event_param":32,"task_id":1009,"limit_times":1,"type":1},{"completed_count":0,"limit_level":1,"description":"feed评论5次","name":"评论5次","is_completed":false,"event_param":5,"task_id":1011,"limit_times":1,"type":1},{"completed_count":0,"limit_level":1,"description":"发布1个feed","name":"晒装备积分","is_completed":false,"event_param":1,"task_id":1010,"limit_times":1,"type":1}],"code":0}
+2014-10-09 16:39:27 | task.info | INFO  |518 | UserTaskListAction | 0 | url=/task/list?atom=dWlkPTYwODU5OCZzaWQ9ZTNjMmJiMmIzOWE3OGU3MCZjYz0xMDAxNyZwZj1hbmRyb2lkJmNuPVdJ%250ARkkmY3Y9TUdBXzEuMS41LjAwX0FfQ04mZHQ9WGlhb21pTUkgNExURSZpbWVpPTg2NTM3MjAyMTE3%250AOTk2MiZpbXNpPTQ2MDAwMTkwMzEwOTcxMyZwbj0%253D%250A | atom=uid=608598&sid=e3c2bb2b39a78e70&cc=10017&pf=android&cn=WIFI&cv=MGA_1.1.5.00_A_CN&dt=XiaomiMI 4LTE&imei=865372021179962&imsi=460001903109713&pn= | postData=null&response={"message":"OK","data":[{"completed_count":0,"limit_level":1,"description":"首次点赞","name":"首次点赞","is_completed":false,"event_param":1,"task_id":1003,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"首次回复","name":"首次回复","is_completed":false,"event_param":1,"task_id":1004,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"注册送大礼","name":"注册送大礼","is_completed":false,"event_param":1,"task_id":1001,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"首次发帖","name":"首次发帖","is_completed":false,"event_param":1,"task_id":1002,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"加入1个公会","name":"我有人罩","is_completed":false,"event_param":1,"task_id":1007,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"登录就送！你没看错！","name":"登录送魔币","is_completed":false,"event_param":1,"task_id":1008,"limit_times":1,"type":1},{"completed_count":0,"limit_level":1,"description":"绑定手机才能愉快玩耍~","name":"绑定手机","is_completed":false,"event_param":1,"task_id":1005,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"加1个好朋友","name":"找盆友","is_completed":false,"event_param":1,"task_id":1006,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"feed点赞32次！","name":"32个赞！","is_completed":false,"event_param":32,"task_id":1009,"limit_times":1,"type":1},{"completed_count":0,"limit_level":1,"description":"feed评论5次","name":"评论5次","is_completed":false,"event_param":5,"task_id":1011,"limit_times":1,"type":1},{"completed_count":0,"limit_level":1,"description":"发布1个feed","name":"晒装备积分","is_completed":false,"event_param":1,"task_id":1010,"limit_times":1,"type":1}],"code":0}
+2014-10-09 16:42:09 | task.info | INFO  |1 | UserTaskExecAction | 0 | url=/task/exec | atom=null | postData={
+    "event" : 103,
+    "uid" : 608598
+}&response={"message":"OK","code":0}
+2014-10-09 16:42:10 | task.info | INFO  |info api response:{"message":"OK","data":{"join_guild_limit":2,"uid":608598,"exp":13,"daily_gift_limit":2,"level":2,"coin":13.050000190734863,"create_guild_limit":1,"diamond":13,"upgrade_exp":10,"gained_exp":4,"friend_limit":11},"code":0}
+2014-10-09 16:42:10 | task.info | INFO  |add api response:{"message":"OK","data":{"uid":608598,"level":2,"coin":23.049999237060547,"diamond":13,"upgrade_exp":10,"gained_exp":9,"is_upgrade":false},"code":0}
+2014-10-09 16:42:10 | task.info | INFO  |growup api response:{"message":"OK","data":{"uid":608598,"level":2,"coin":23.049999237060547,"diamond":13,"upgrade_exp":10,"gained_exp":9,"is_upgrade":false},"code":0}
+2014-10-09 16:42:10 | task.info | INFO  |push task notify:{"completed_count":1,"limit_level":1,"description":"首次点赞","name":1003,"is_completed":true,"event_param":1,"task_id":1003,"limit_times":1,"type":2,"user":{"uid":608598,"level":608598,"coin":23.049999237060547,"diamond":13,"upgrade_exp":608598,"gained_exp":9,"is_upgrade":false}} result:
+2014-10-09 16:42:10 | task.info | INFO  |info api response:{"message":"OK","data":{"join_guild_limit":2,"uid":608598,"exp":18,"daily_gift_limit":2,"level":2,"coin":23.049999237060547,"create_guild_limit":1,"diamond":13,"upgrade_exp":10,"gained_exp":9,"friend_limit":11},"code":0}
+2014-10-09 16:42:21 | task.info | INFO  |1312 | UserTaskListAction | 0 | url=/task/list?atom=dWlkPTYwODU5OCZzaWQ9ZTNjMmJiMmIzOWE3OGU3MCZjYz0xMDAxNyZwZj1hbmRyb2lkJmNuPVdJ%250ARkkmY3Y9TUdBXzEuMS41LjAwX0FfQ04mZHQ9WGlhb21pTUkgNExURSZpbWVpPTg2NTM3MjAyMTE3%250AOTk2MiZpbXNpPTQ2MDAwMTkwMzEwOTcxMyZwbj0%253D%250A | atom=uid=608598&sid=e3c2bb2b39a78e70&cc=10017&pf=android&cn=WIFI&cv=MGA_1.1.5.00_A_CN&dt=XiaomiMI 4LTE&imei=865372021179962&imsi=460001903109713&pn= | postData=null&response={"message":"OK","data":[{"completed_count":0,"limit_level":1,"description":"首次点赞","name":"首次点赞","is_completed":false,"event_param":1,"task_id":1003,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"首次回复","name":"首次回复","is_completed":false,"event_param":1,"task_id":1004,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"注册送大礼","name":"注册送大礼","is_completed":false,"event_param":1,"task_id":1001,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"首次发帖","name":"首次发帖","is_completed":false,"event_param":1,"task_id":1002,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"加入1个公会","name":"我有人罩","is_completed":false,"event_param":1,"task_id":1007,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"登录就送！你没看错！","name":"登录送魔币","is_completed":false,"event_param":1,"task_id":1008,"limit_times":1,"type":1},{"completed_count":0,"limit_level":1,"description":"绑定手机才能愉快玩耍~","name":"绑定手机","is_completed":false,"event_param":1,"task_id":1005,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"加1个好朋友","name":"找盆友","is_completed":false,"event_param":1,"task_id":1006,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"feed点赞32次！","name":"32个赞！","is_completed":false,"event_param":32,"task_id":1009,"limit_times":1,"type":1},{"completed_count":0,"limit_level":1,"description":"feed评论5次","name":"评论5次","is_completed":false,"event_param":5,"task_id":1011,"limit_times":1,"type":1},{"completed_count":0,"limit_level":1,"description":"发布1个feed","name":"晒装备积分","is_completed":false,"event_param":1,"task_id":1010,"limit_times":1,"type":1}],"code":0}
+2014-10-09 16:48:19 | task.info | INFO  |1 | UserTaskExecAction | 0 | url=/task/exec | atom=null | postData={
+    "event" : 103,
+    "uid" : 608598
+}&response={"message":"OK","code":0}
+2014-10-09 16:48:19 | task.info | INFO  |add api response:{"message":"OK","data":{"upgrade_content":{"join_guild_limit":2,"daily_gift_limit":2,"last_create_guild_limit":1,"last_daily_gift_limit":2,"create_guild_limit":1,"last_level":2,"friend_limit":12,"last_friend_limit":11,"gain_rmb":0.019999999552965164,"last_join_guild_limit":2},"uid":608598,"level":2,"coin":33.06999969482422,"diamond":13,"upgrade_exp":12,"gained_exp":4,"is_upgrade":true},"code":0}
+2014-10-09 16:48:19 | task.info | INFO  |growup api response:{"message":"OK","data":{"uid":608598,"upgrade_content":{"join_guild_limit":2,"daily_gift_limit":2,"last_create_guild_limit":1,"last_daily_gift_limit":2,"last_level":2,"create_guild_limit":1,"friend_limit":12,"gain_rmb":0.019999999552965164,"last_friend_limit":11,"last_join_guild_limit":2},"level":2,"coin":33.06999969482422,"diamond":13,"upgrade_exp":12,"gained_exp":4,"is_upgrade":true},"code":0}
+2014-10-09 16:48:19 | task.info | INFO  |push task notify:{"completed_count":1,"limit_level":1,"description":"首次点赞","name":1003,"is_completed":true,"event_param":1,"task_id":1003,"limit_times":1,"type":2,"user":{"uid":608598,"level":608598,"coin":33.06999969482422,"diamond":13,"upgrade_exp":608598,"gained_exp":4,"is_upgrade":true}} result:
+2014-10-09 16:48:20 | task.info | INFO  |info api response:{"message":"OK","data":{"join_guild_limit":2,"uid":608598,"exp":23,"daily_gift_limit":2,"level":3,"coin":33.06999969482422,"create_guild_limit":1,"diamond":13,"upgrade_exp":12,"gained_exp":4,"friend_limit":12},"code":0}
+2014-10-09 16:48:20 | task.info | INFO  |info api response:{"message":"OK","data":{"uid":608598,"join_guild_limit":2,"exp":23,"daily_gift_limit":2,"level":3,"coin":33.06999969482422,"diamond":13,"create_guild_limit":1,"upgrade_exp":12,"gained_exp":4,"friend_limit":12},"code":0}
+2014-10-09 16:48:25 | task.info | INFO  |1916 | UserTaskListAction | 0 | url=/task/list?atom=dWlkPTYwODU5OCZzaWQ9ZTNjMmJiMmIzOWE3OGU3MCZjYz0xMDAxNyZwZj1hbmRyb2lkJmNuPVdJ%250ARkkmY3Y9TUdBXzEuMS41LjAwX0FfQ04mZHQ9WGlhb21pTUkgNExURSZpbWVpPTg2NTM3MjAyMTE3%250AOTk2MiZpbXNpPTQ2MDAwMTkwMzEwOTcxMyZwbj0%253D%250A | atom=uid=608598&sid=e3c2bb2b39a78e70&cc=10017&pf=android&cn=WIFI&cv=MGA_1.1.5.00_A_CN&dt=XiaomiMI 4LTE&imei=865372021179962&imsi=460001903109713&pn= | postData=null&response={"message":"OK","data":[{"completed_count":1,"limit_level":1,"description":"首次点赞","name":"首次点赞","is_completed":true,"event_param":1,"task_id":1003,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"首次回复","name":"首次回复","is_completed":false,"event_param":1,"task_id":1004,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"注册送大礼","name":"注册送大礼","is_completed":false,"event_param":1,"task_id":1001,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"首次发帖","name":"首次发帖","is_completed":false,"event_param":1,"task_id":1002,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"加入1个公会","name":"我有人罩","is_completed":false,"event_param":1,"task_id":1007,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"登录就送！你没看错！","name":"登录送魔币","is_completed":false,"event_param":1,"task_id":1008,"limit_times":1,"type":1},{"completed_count":0,"limit_level":1,"description":"绑定手机才能愉快玩耍~","name":"绑定手机","is_completed":false,"event_param":1,"task_id":1005,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"加1个好朋友","name":"找盆友","is_completed":false,"event_param":1,"task_id":1006,"limit_times":1,"type":2},{"completed_count":1,"limit_level":1,"description":"feed点赞32次！","name":"32个赞！","is_completed":false,"event_param":32,"task_id":1009,"limit_times":1,"type":1},{"completed_count":0,"limit_level":1,"description":"feed评论5次","name":"评论5次","is_completed":false,"event_param":5,"task_id":1011,"limit_times":1,"type":1},{"completed_count":0,"limit_level":1,"description":"发布1个feed","name":"晒装备积分","is_completed":false,"event_param":1,"task_id":1010,"limit_times":1,"type":1}],"code":0}
+2014-10-09 16:50:13 | task.info | INFO  |0 | UserTaskExecAction | 0 | url=/task/exec | atom=null | postData={
+    "event" : 104,
+    "uid" : 608598
+}&response={"message":"OK","code":0}
+2014-10-09 16:50:13 | task.info | INFO  |info api response:{"message":"OK","data":{"uid":608598,"join_guild_limit":2,"exp":23,"daily_gift_limit":2,"level":3,"coin":33.06999969482422,"diamond":13,"create_guild_limit":1,"upgrade_exp":12,"gained_exp":4,"friend_limit":12},"code":0}
+2014-10-09 16:50:14 | task.info | INFO  |add api response:{"message":"OK","data":{"upgrade_content":{"join_guild_limit":2,"daily_gift_limit":2,"last_create_guild_limit":1,"last_daily_gift_limit":2,"create_guild_limit":1,"last_level":3,"friend_limit":13,"last_friend_limit":12,"gain_rmb":0.029999999329447746,"last_join_guild_limit":2},"uid":608598,"level":3,"coin":43.099998474121094,"diamond":13,"upgrade_exp":14,"gained_exp":2,"is_upgrade":true},"code":0}
+2014-10-09 16:50:14 | task.info | INFO  |growup api response:{"message":"OK","data":{"uid":608598,"upgrade_content":{"join_guild_limit":2,"daily_gift_limit":2,"last_create_guild_limit":1,"last_daily_gift_limit":2,"last_level":3,"create_guild_limit":1,"friend_limit":13,"gain_rmb":0.029999999329447746,"last_friend_limit":12,"last_join_guild_limit":2},"level":3,"coin":43.099998474121094,"diamond":13,"upgrade_exp":14,"gained_exp":2,"is_upgrade":true},"code":0}
+2014-10-09 16:50:14 | task.info | INFO  |push task notify:{"completed_count":1,"limit_level":1,"description":"首次回复","name":1004,"is_completed":true,"event_param":1,"task_id":1004,"limit_times":1,"type":2,"user":{"uid":608598,"level":608598,"coin":43.099998474121094,"diamond":13,"upgrade_exp":608598,"gained_exp":2,"is_upgrade":true}} result:
+2014-10-09 16:50:14 | task.info | INFO  |info api response:{"message":"OK","data":{"join_guild_limit":2,"uid":608598,"exp":33,"daily_gift_limit":2,"level":4,"coin":43.099998474121094,"create_guild_limit":1,"diamond":13,"upgrade_exp":14,"gained_exp":2,"friend_limit":13},"code":0}
+2014-10-09 16:50:18 | task.info | INFO  |1138 | UserTaskListAction | 0 | url=/task/list?atom=dWlkPTYwODU5OCZzaWQ9ZTNjMmJiMmIzOWE3OGU3MCZjYz0xMDAxNyZwZj1hbmRyb2lkJmNuPVdJ%250ARkkmY3Y9TUdBXzEuMS41LjAwX0FfQ04mZHQ9WGlhb21pTUkgNExURSZpbWVpPTg2NTM3MjAyMTE3%250AOTk2MiZpbXNpPTQ2MDAwMTkwMzEwOTcxMyZwbj0%253D%250A | atom=uid=608598&sid=e3c2bb2b39a78e70&cc=10017&pf=android&cn=WIFI&cv=MGA_1.1.5.00_A_CN&dt=XiaomiMI 4LTE&imei=865372021179962&imsi=460001903109713&pn= | postData=null&response={"message":"OK","data":[{"completed_count":1,"limit_level":1,"description":"首次点赞","name":"首次点赞","is_completed":true,"event_param":1,"task_id":1003,"limit_times":1,"type":2},{"completed_count":1,"limit_level":1,"description":"首次回复","name":"首次回复","is_completed":true,"event_param":1,"task_id":1004,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"注册送大礼","name":"注册送大礼","is_completed":false,"event_param":1,"task_id":1001,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"首次发帖","name":"首次发帖","is_completed":false,"event_param":1,"task_id":1002,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"加入1个公会","name":"我有人罩","is_completed":false,"event_param":1,"task_id":1007,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"登录就送！你没看错！","name":"登录送魔币","is_completed":false,"event_param":1,"task_id":1008,"limit_times":1,"type":1},{"completed_count":0,"limit_level":1,"description":"绑定手机才能愉快玩耍~","name":"绑定手机","is_completed":false,"event_param":1,"task_id":1005,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"加1个好朋友","name":"找盆友","is_completed":false,"event_param":1,"task_id":1006,"limit_times":1,"type":2},{"completed_count":1,"limit_level":1,"description":"feed点赞32次！","name":"32个赞！","is_completed":false,"event_param":32,"task_id":1009,"limit_times":1,"type":1},{"completed_count":1,"limit_level":1,"description":"feed评论5次","name":"评论5次","is_completed":false,"event_param":5,"task_id":1011,"limit_times":1,"type":1},{"completed_count":0,"limit_level":1,"description":"发布1个feed","name":"晒装备积分","is_completed":false,"event_param":1,"task_id":1010,"limit_times":1,"type":1}],"code":0}
+2014-10-09 16:50:42 | task.info | INFO  |0 | UserTaskExecAction | 0 | url=/task/exec | atom=null | postData={
+    "event" : 104,
+    "uid" : 608598
+}&response={"message":"OK","code":0}
+2014-10-09 16:50:43 | task.info | INFO  |info api response:{"message":"OK","data":{"uid":608598,"join_guild_limit":2,"exp":33,"daily_gift_limit":2,"level":4,"coin":43.099998474121094,"diamond":13,"create_guild_limit":1,"upgrade_exp":14,"gained_exp":2,"friend_limit":13},"code":0}
+2014-10-09 16:50:43 | task.info | INFO  |info api response:{"message":"OK","data":{"uid":608598,"join_guild_limit":2,"exp":33,"daily_gift_limit":2,"level":4,"coin":43.099998474121094,"diamond":13,"create_guild_limit":1,"upgrade_exp":14,"gained_exp":2,"friend_limit":13},"code":0}
+2014-10-09 16:50:53 | task.info | INFO  |1799 | UserTaskListAction | 0 | url=/task/list?atom=dWlkPTYwODU5OCZzaWQ9ZTNjMmJiMmIzOWE3OGU3MCZjYz0xMDAxNyZwZj1hbmRyb2lkJmNuPVdJ%250ARkkmY3Y9TUdBXzEuMS41LjAwX0FfQ04mZHQ9WGlhb21pTUkgNExURSZpbWVpPTg2NTM3MjAyMTE3%250AOTk2MiZpbXNpPTQ2MDAwMTkwMzEwOTcxMyZwbj0%253D%250A | atom=uid=608598&sid=e3c2bb2b39a78e70&cc=10017&pf=android&cn=WIFI&cv=MGA_1.1.5.00_A_CN&dt=XiaomiMI 4LTE&imei=865372021179962&imsi=460001903109713&pn= | postData=null&response={"message":"OK","data":[{"completed_count":1,"limit_level":1,"description":"首次点赞","name":"首次点赞","is_completed":true,"event_param":1,"task_id":1003,"limit_times":1,"type":2},{"completed_count":1,"limit_level":1,"description":"首次回复","name":"首次回复","is_completed":true,"event_param":1,"task_id":1004,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"注册送大礼","name":"注册送大礼","is_completed":false,"event_param":1,"task_id":1001,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"首次发帖","name":"首次发帖","is_completed":false,"event_param":1,"task_id":1002,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"加入1个公会","name":"我有人罩","is_completed":false,"event_param":1,"task_id":1007,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"登录就送！你没看错！","name":"登录送魔币","is_completed":false,"event_param":1,"task_id":1008,"limit_times":1,"type":1},{"completed_count":0,"limit_level":1,"description":"绑定手机才能愉快玩耍~","name":"绑定手机","is_completed":false,"event_param":1,"task_id":1005,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"加1个好朋友","name":"找盆友","is_completed":false,"event_param":1,"task_id":1006,"limit_times":1,"type":2},{"completed_count":1,"limit_level":1,"description":"feed点赞32次！","name":"32个赞！","is_completed":false,"event_param":32,"task_id":1009,"limit_times":1,"type":1},{"completed_count":2,"limit_level":1,"description":"feed评论5次","name":"评论5次","is_completed":false,"event_param":5,"task_id":1011,"limit_times":1,"type":1},{"completed_count":0,"limit_level":1,"description":"发布1个feed","name":"晒装备积分","is_completed":false,"event_param":1,"task_id":1010,"limit_times":1,"type":1}],"code":0}
+2014-10-09 16:51:13 | task.info | INFO  |1 | UserTaskExecAction | 0 | url=/task/exec | atom=null | postData={
+    "event" : 104,
+    "uid" : 608598
+}&response={"message":"OK","code":0}
+2014-10-09 16:51:13 | task.info | INFO  |info api response:{"message":"OK","data":{"uid":608598,"join_guild_limit":2,"exp":33,"daily_gift_limit":2,"level":4,"coin":43.099998474121094,"diamond":13,"create_guild_limit":1,"upgrade_exp":14,"gained_exp":2,"friend_limit":13},"code":0}
+2014-10-09 16:51:13 | task.info | INFO  |info api response:{"message":"OK","data":{"uid":608598,"join_guild_limit":2,"exp":33,"daily_gift_limit":2,"level":4,"coin":43.099998474121094,"diamond":13,"create_guild_limit":1,"upgrade_exp":14,"gained_exp":2,"friend_limit":13},"code":0}
+2014-10-09 16:51:15 | task.info | INFO  |0 | UserTaskExecAction | 0 | url=/task/exec | atom=null | postData={
+    "event" : 104,
+    "uid" : 608598
+}&response={"message":"OK","code":0}
+2014-10-09 16:51:15 | task.info | INFO  |info api response:{"message":"OK","data":{"uid":608598,"join_guild_limit":2,"exp":33,"daily_gift_limit":2,"level":4,"coin":43.099998474121094,"diamond":13,"create_guild_limit":1,"upgrade_exp":14,"gained_exp":2,"friend_limit":13},"code":0}
+2014-10-09 16:51:15 | task.info | INFO  |info api response:{"message":"OK","data":{"uid":608598,"join_guild_limit":2,"exp":33,"daily_gift_limit":2,"level":4,"coin":43.099998474121094,"diamond":13,"create_guild_limit":1,"upgrade_exp":14,"gained_exp":2,"friend_limit":13},"code":0}
+2014-10-09 16:51:16 | task.info | INFO  |0 | UserTaskExecAction | 0 | url=/task/exec | atom=null | postData={
+    "event" : 104,
+    "uid" : 608598
+}&response={"message":"OK","code":0}
+2014-10-09 16:51:17 | task.info | INFO  |info api response:{"message":"OK","data":{"uid":608598,"join_guild_limit":2,"exp":33,"daily_gift_limit":2,"level":4,"coin":43.099998474121094,"diamond":13,"create_guild_limit":1,"upgrade_exp":14,"gained_exp":2,"friend_limit":13},"code":0}
+2014-10-09 16:51:17 | task.info | INFO  |info api response:{"message":"OK","data":{"uid":608598,"join_guild_limit":2,"exp":33,"daily_gift_limit":2,"level":4,"coin":43.099998474121094,"diamond":13,"create_guild_limit":1,"upgrade_exp":14,"gained_exp":2,"friend_limit":13},"code":0}
+2014-10-09 16:51:17 | task.info | INFO  |add api response:{"message":"OK","data":{"upgrade_content":{"join_guild_limit":2,"daily_gift_limit":2,"last_create_guild_limit":1,"last_daily_gift_limit":2,"create_guild_limit":1,"last_level":4,"friend_limit":14,"last_friend_limit":13,"gain_rmb":0.03999999910593033,"last_join_guild_limit":2},"uid":608598,"level":4,"coin":51.13999938964844,"diamond":13,"upgrade_exp":16,"gained_exp":8,"is_upgrade":true},"code":0}
+2014-10-09 16:51:17 | task.info | INFO  |growup api response:{"message":"OK","data":{"uid":608598,"upgrade_content":{"join_guild_limit":2,"daily_gift_limit":2,"last_create_guild_limit":1,"last_daily_gift_limit":2,"last_level":4,"create_guild_limit":1,"friend_limit":14,"gain_rmb":0.03999999910593033,"last_friend_limit":13,"last_join_guild_limit":2},"level":4,"coin":51.13999938964844,"diamond":13,"upgrade_exp":16,"gained_exp":8,"is_upgrade":true},"code":0}
+2014-10-09 16:51:17 | task.info | INFO  |push task notify:{"completed_count":5,"limit_level":1,"description":"feed评论5次","name":1011,"is_completed":true,"event_param":5,"task_id":1011,"limit_times":1,"type":1,"user":{"uid":608598,"level":608598,"coin":51.13999938964844,"diamond":13,"upgrade_exp":608598,"gained_exp":8,"is_upgrade":true}} result:
+2014-10-09 16:51:18 | task.info | INFO  |1 | UserTaskExecAction | 0 | url=/task/exec | atom=null | postData={
+    "event" : 104,
+    "uid" : 608598
+}&response={"message":"OK","code":0}
+2014-10-09 16:51:18 | task.info | INFO  |info api response:{"message":"OK","data":{"join_guild_limit":2,"uid":608598,"exp":53,"daily_gift_limit":2,"level":5,"coin":51.13999938964844,"create_guild_limit":1,"diamond":13,"upgrade_exp":16,"gained_exp":8,"friend_limit":14},"code":0}
+2014-10-09 16:51:18 | task.info | INFO  |info api response:{"message":"OK","data":{"uid":608598,"join_guild_limit":2,"exp":53,"daily_gift_limit":2,"level":5,"coin":51.13999938964844,"diamond":13,"create_guild_limit":1,"upgrade_exp":16,"gained_exp":8,"friend_limit":14},"code":0}
+2014-10-09 16:51:19 | task.info | INFO  |1 | UserTaskExecAction | 0 | url=/task/exec | atom=null | postData={
+    "event" : 104,
+    "uid" : 608598
+}&response={"message":"OK","code":0}
+2014-10-09 16:51:20 | task.info | INFO  |info api response:{"message":"OK","data":{"uid":608598,"join_guild_limit":2,"exp":53,"daily_gift_limit":2,"level":5,"coin":51.13999938964844,"diamond":13,"create_guild_limit":1,"upgrade_exp":16,"gained_exp":8,"friend_limit":14},"code":0}
+2014-10-09 16:51:20 | task.info | INFO  |info api response:{"message":"OK","data":{"uid":608598,"join_guild_limit":2,"exp":53,"daily_gift_limit":2,"level":5,"coin":51.13999938964844,"diamond":13,"create_guild_limit":1,"upgrade_exp":16,"gained_exp":8,"friend_limit":14},"code":0}
+2014-10-09 16:51:24 | task.info | INFO  |1258 | UserTaskListAction | 0 | url=/task/list?atom=dWlkPTYwODU5OCZzaWQ9ZTNjMmJiMmIzOWE3OGU3MCZjYz0xMDAxNyZwZj1hbmRyb2lkJmNuPVdJ%250ARkkmY3Y9TUdBXzEuMS41LjAwX0FfQ04mZHQ9WGlhb21pTUkgNExURSZpbWVpPTg2NTM3MjAyMTE3%250AOTk2MiZpbXNpPTQ2MDAwMTkwMzEwOTcxMyZwbj0%253D%250A | atom=uid=608598&sid=e3c2bb2b39a78e70&cc=10017&pf=android&cn=WIFI&cv=MGA_1.1.5.00_A_CN&dt=XiaomiMI 4LTE&imei=865372021179962&imsi=460001903109713&pn= | postData=null&response={"message":"OK","data":[{"completed_count":1,"limit_level":1,"description":"首次点赞","name":"首次点赞","is_completed":true,"event_param":1,"task_id":1003,"limit_times":1,"type":2},{"completed_count":1,"limit_level":1,"description":"首次回复","name":"首次回复","is_completed":true,"event_param":1,"task_id":1004,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"注册送大礼","name":"注册送大礼","is_completed":false,"event_param":1,"task_id":1001,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"首次发帖","name":"首次发帖","is_completed":false,"event_param":1,"task_id":1002,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"加入1个公会","name":"我有人罩","is_completed":false,"event_param":1,"task_id":1007,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"登录就送！你没看错！","name":"登录送魔币","is_completed":false,"event_param":1,"task_id":1008,"limit_times":1,"type":1},{"completed_count":0,"limit_level":1,"description":"绑定手机才能愉快玩耍~","name":"绑定手机","is_completed":false,"event_param":1,"task_id":1005,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"加1个好朋友","name":"找盆友","is_completed":false,"event_param":1,"task_id":1006,"limit_times":1,"type":2},{"completed_count":1,"limit_level":1,"description":"feed点赞32次！","name":"32个赞！","is_completed":false,"event_param":32,"task_id":1009,"limit_times":1,"type":1},{"completed_count":5,"limit_level":1,"description":"feed评论5次","name":"评论5次","is_completed":true,"event_param":5,"task_id":1011,"limit_times":1,"type":1},{"completed_count":0,"limit_level":1,"description":"发布1个feed","name":"晒装备积分","is_completed":false,"event_param":1,"task_id":1010,"limit_times":1,"type":1}],"code":0}
+2014-10-09 17:05:55 | task.info | INFO  |1805 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+    "name" : "注册送大礼",
+    "type" : 2,
+    "event" : 101,
+    "description" : "注册送大礼",
+    "limit_level" : 1,
+    "limit_times" : 1,
+    "event_param" : 1,
+    "reward_coin" : 10,
+    "reward_diamond" : 0,
+    "reward_exp" : 10
+}&response={"message":"OK","code":0}
+2014-10-09 17:06:04 | task.info | INFO  |662 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+    "name" : "首次发帖",
+    "type" : 2,
+    "event" : 102,
+    "description" : "首次发帖",
+    "limit_level" : 1,
+    "limit_times" : 1,
+    "event_param" : 1,
+    "reward_coin" : 10,
+    "reward_diamond" : 0,
+    "reward_exp" : 10
+}&response={"message":"OK","code":0}
+2014-10-09 17:06:14 | task.info | INFO  |1002 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+    "name" : "首次点赞",
+    "type" : 2,
+    "event" : 103,
+    "description" : "首次点赞",
+    "limit_level" : 1,
+    "limit_times" : 1,
+    "event_param" : 1,
+    "reward_coin" : 5,
+    "reward_diamond" : 0,
+    "reward_exp" : 10
+}&response={"message":"OK","code":0}
+2014-10-09 17:06:23 | task.info | INFO  |327 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+    "name" : "首次回复",
+    "type" : 2,
+    "event" : 104,
+    "description" : "首次回复",
+    "limit_level" : 1,
+    "limit_times" : 1,
+    "event_param" : 1,
+    "reward_coin" : 10,
+    "reward_diamond" : 0,
+    "reward_exp" : 10
+}
+&response={"message":"OK","code":0}
+2014-10-09 17:06:31 | task.info | INFO  |468 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+    "name" : "绑定手机",
+    "type" : 2,
+    "event" : 105,
+    "description" : "绑定手机才能愉快玩耍~",
+    "limit_level" : 1,
+    "limit_times" : 1,
+    "event_param" : 1,
+    "reward_coin" : 5,
+    "reward_diamond" : 0,
+    "reward_exp" : 10
+}
+&response={"message":"OK","code":0}
+2014-10-09 17:06:41 | task.info | INFO  |712 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+    "name" : "找盆友",
+    "type" : 2,
+    "event" : 106,
+    "description" : "加1个好朋友",
+    "limit_level" : 1,
+    "limit_times" : 1,
+    "event_param" : 1,
+    "reward_coin" : 10,
+    "reward_diamond" : 0,
+    "reward_exp" : 10
+}&response={"message":"OK","code":0}
+2014-10-09 17:06:49 | task.info | INFO  |976 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+    "name" : "我有人罩",
+    "type" : 2,
+    "event" : 107,
+    "description" : "加入1个公会",
+    "limit_level" : 1,
+    "limit_times" : 1,
+    "event_param" : 1,
+    "reward_coin" : 20,
+    "reward_diamond" : 0,
+    "reward_exp" : 20
+}&response={"message":"OK","code":0}
+2014-10-09 17:06:57 | task.info | INFO  |168 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+    "name" : "登录送魔币",
+    "type" : 1,
+    "event" : 108,
+    "description" : "登录就送！你没看错！",
+    "limit_level" : 1,
+    "limit_times" : 1,
+    "event_param" : 1,
+    "reward_coin" : 20,
+    "reward_diamond" : 0,
+    "reward_exp" : 8
+}&response={"message":"OK","code":0}
+2014-10-09 17:07:06 | task.info | INFO  |543 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+    "name" : "32个赞！",
+    "type" : 1,
+    "event" : 103,
+    "description" : "feed点赞32次！",
+    "limit_level" : 1,
+    "limit_times" : 1,
+    "event_param" : 32,
+    "reward_coin" : 20,
+    "reward_diamond" : 0,
+    "reward_exp" : 8
+}&response={"message":"OK","code":0}
+2014-10-09 17:07:14 | task.info | INFO  |711 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+    "name" : "晒装备积分",
+    "type" : 1,
+    "event" : 102,
+    "description" : "发布1个feed",
+    "limit_level" : 1,
+    "limit_times" : 1,
+    "event_param" : 1,
+    "reward_coin" : 20,
+    "reward_diamond" : 0,
+    "reward_exp" : 8
+}&response={"message":"OK","code":0}
+2014-10-09 17:07:23 | task.info | INFO  |577 | TaskAddAction | 0 | url=/task/add | atom=null | postData={
+    "name" : "评论5次",
+    "type" : 1,
+    "event" : 104,
+    "description" : "feed评论5次",
+    "limit_level" : 1,
+    "limit_times" : 1,
+    "event_param" : 5,
+    "reward_coin" : 20,
+    "reward_diamond" : 0,
+    "reward_exp" : 8
+}
+&response={"message":"OK","code":0}
+2014-10-09 17:08:16 | task.info | INFO  |2107 | UserTaskListAction | 0 | url=/task/list?atom=dWlkPTYwODU5OCZzaWQ9ZTNjMmJiMmIzOWE3OGU3MCZjYz0xMDAxNyZwZj1hbmRyb2lkJmNuPVdJ%250ARkkmY3Y9TUdBXzEuMS41LjAwX0FfQ04mZHQ9WGlhb21pTUkgNExURSZpbWVpPTg2NTM3MjAyMTE3%250AOTk2MiZpbXNpPTQ2MDAwMTkwMzEwOTcxMyZwbj0%253D%250A | atom=uid=608598&sid=e3c2bb2b39a78e70&cc=10017&pf=android&cn=WIFI&cv=MGA_1.1.5.00_A_CN&dt=XiaomiMI 4LTE&imei=865372021179962&imsi=460001903109713&pn= | postData=null&response={"message":"OK","data":[{"completed_count":0,"limit_level":1,"description":"首次点赞","name":"首次点赞","is_completed":false,"event_param":1,"task_id":1003,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"首次回复","name":"首次回复","is_completed":false,"event_param":1,"task_id":1004,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"注册送大礼","name":"注册送大礼","is_completed":false,"event_param":1,"task_id":1001,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"首次发帖","name":"首次发帖","is_completed":false,"event_param":1,"task_id":1002,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"加入1个公会","name":"我有人罩","is_completed":false,"event_param":1,"task_id":1007,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"登录就送！你没看错！","name":"登录送魔币","is_completed":false,"event_param":1,"task_id":1008,"limit_times":1,"type":1},{"completed_count":0,"limit_level":1,"description":"绑定手机才能愉快玩耍~","name":"绑定手机","is_completed":false,"event_param":1,"task_id":1005,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"加1个好朋友","name":"找盆友","is_completed":false,"event_param":1,"task_id":1006,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"feed点赞32次！","name":"32个赞！","is_completed":false,"event_param":32,"task_id":1009,"limit_times":1,"type":1},{"completed_count":0,"limit_level":1,"description":"feed评论5次","name":"评论5次","is_completed":false,"event_param":5,"task_id":1011,"limit_times":1,"type":1},{"completed_count":0,"limit_level":1,"description":"发布1个feed","name":"晒装备积分","is_completed":false,"event_param":1,"task_id":1010,"limit_times":1,"type":1}],"code":0}
+2014-10-09 17:12:03 | task.info | INFO  |1 | UserTaskExecAction | 0 | url=/task/exec | atom=null | postData={
+    "uid" : 608598,
+    "event" : 102
+}
+&response={"message":"OK","code":0}
+2014-10-09 17:12:04 | task.info | INFO  |info api response:{"message":"OK","data":{"uid":608598,"join_guild_limit":2,"exp":0,"daily_gift_limit":2,"level":1,"coin":0,"diamond":0,"create_guild_limit":1,"upgrade_exp":9,"gained_exp":0,"friend_limit":10},"code":0}
+2014-10-09 17:12:05 | task.info | INFO  |add api response:{"message":"OK","data":{"upgrade_content":{"join_guild_limit":2,"daily_gift_limit":2,"last_create_guild_limit":1,"last_daily_gift_limit":2,"create_guild_limit":1,"last_level":1,"friend_limit":11,"last_friend_limit":10,"gain_rmb":0.05000000074505806,"last_join_guild_limit":2},"uid":608598,"level":1,"coin":10.050000190734863,"diamond":0,"upgrade_exp":10,"gained_exp":1,"is_upgrade":true},"code":0}
+2014-10-09 17:12:05 | task.info | INFO  |growup api response:{"message":"OK","data":{"uid":608598,"upgrade_content":{"join_guild_limit":2,"daily_gift_limit":2,"last_create_guild_limit":1,"last_daily_gift_limit":2,"last_level":1,"create_guild_limit":1,"friend_limit":11,"gain_rmb":0.05000000074505806,"last_friend_limit":10,"last_join_guild_limit":2},"level":1,"coin":10.050000190734863,"diamond":0,"upgrade_exp":10,"gained_exp":1,"is_upgrade":true},"code":0}
+2014-10-09 17:12:06 | task.info | INFO  |push task notify:{"completed_count":1,"limit_level":1,"description":"首次发帖","name":1002,"is_completed":true,"event_param":1,"task_id":1002,"limit_times":1,"type":2,"user":{"uid":608598,"level":608598,"coin":10.050000190734863,"diamond":0,"upgrade_exp":608598,"gained_exp":1,"is_upgrade":true}} result:
+2014-10-09 17:12:06 | task.info | INFO  |info api response:{"message":"OK","data":{"join_guild_limit":2,"uid":608598,"exp":10,"daily_gift_limit":2,"level":2,"coin":10.050000190734863,"create_guild_limit":1,"diamond":0,"upgrade_exp":10,"gained_exp":1,"friend_limit":11},"code":0}
+2014-10-09 17:12:06 | task.info | INFO  |add api response:{"message":"OK","data":{"uid":608598,"level":2,"coin":30.049999237060547,"diamond":0,"upgrade_exp":10,"gained_exp":9,"is_upgrade":false},"code":0}
+2014-10-09 17:12:06 | task.info | INFO  |growup api response:{"message":"OK","data":{"uid":608598,"level":2,"coin":30.049999237060547,"diamond":0,"upgrade_exp":10,"gained_exp":9,"is_upgrade":false},"code":0}
+2014-10-09 17:12:06 | task.info | INFO  |push task notify:{"completed_count":1,"limit_level":1,"description":"发布1个feed","name":1010,"is_completed":true,"event_param":1,"task_id":1010,"limit_times":1,"type":1,"user":{"uid":608598,"level":608598,"coin":30.049999237060547,"diamond":0,"upgrade_exp":608598,"gained_exp":9,"is_upgrade":false}} result:
+2014-10-09 17:12:12 | task.info | INFO  |3187 | UserTaskListAction | 0 | url=/task/list?atom=dWlkPTYwODU5OCZzaWQ9ZTNjMmJiMmIzOWE3OGU3MCZjYz0xMDAxNyZwZj1hbmRyb2lkJmNuPVdJ%250ARkkmY3Y9TUdBXzEuMS41LjAwX0FfQ04mZHQ9WGlhb21pTUkgNExURSZpbWVpPTg2NTM3MjAyMTE3%250AOTk2MiZpbXNpPTQ2MDAwMTkwMzEwOTcxMyZwbj0%253D%250A | atom=uid=608598&sid=e3c2bb2b39a78e70&cc=10017&pf=android&cn=WIFI&cv=MGA_1.1.5.00_A_CN&dt=XiaomiMI 4LTE&imei=865372021179962&imsi=460001903109713&pn= | postData=null&response={"message":"OK","data":[{"completed_count":0,"limit_level":1,"description":"首次点赞","name":"首次点赞","is_completed":false,"event_param":1,"task_id":1003,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"首次回复","name":"首次回复","is_completed":false,"event_param":1,"task_id":1004,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"注册送大礼","name":"注册送大礼","is_completed":false,"event_param":1,"task_id":1001,"limit_times":1,"type":2},{"completed_count":1,"limit_level":1,"description":"首次发帖","name":"首次发帖","is_completed":true,"event_param":1,"task_id":1002,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"加入1个公会","name":"我有人罩","is_completed":false,"event_param":1,"task_id":1007,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"登录就送！你没看错！","name":"登录送魔币","is_completed":false,"event_param":1,"task_id":1008,"limit_times":1,"type":1},{"completed_count":0,"limit_level":1,"description":"绑定手机才能愉快玩耍~","name":"绑定手机","is_completed":false,"event_param":1,"task_id":1005,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"加1个好朋友","name":"找盆友","is_completed":false,"event_param":1,"task_id":1006,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"feed点赞32次！","name":"32个赞！","is_completed":false,"event_param":32,"task_id":1009,"limit_times":1,"type":1},{"completed_count":0,"limit_level":1,"description":"feed评论5次","name":"评论5次","is_completed":false,"event_param":5,"task_id":1011,"limit_times":1,"type":1},{"completed_count":1,"limit_level":1,"description":"发布1个feed","name":"晒装备积分","is_completed":true,"event_param":1,"task_id":1010,"limit_times":1,"type":1}],"code":0}
+2014-10-09 17:20:56 | task.info | INFO  |0 | UserTaskExecAction | 0 | url=/task/exec | atom=null | postData={
+    "uid" : 608598,
+    "event" : 104
+}
+&response={"message":"OK","code":0}
+2014-10-09 17:20:56 | task.info | INFO  |info api response:{"message":"OK","data":{"uid":608598,"join_guild_limit":2,"exp":18,"daily_gift_limit":2,"level":2,"coin":30.049999237060547,"diamond":0,"create_guild_limit":1,"upgrade_exp":10,"gained_exp":9,"friend_limit":11},"code":0}
+2014-10-09 17:20:56 | task.info | INFO  |add api response:{"message":"OK","data":{"upgrade_content":{"join_guild_limit":2,"daily_gift_limit":2,"last_create_guild_limit":1,"last_daily_gift_limit":2,"create_guild_limit":1,"last_level":2,"friend_limit":12,"last_friend_limit":11,"gain_rmb":0.019999999552965164,"last_join_guild_limit":2},"uid":608598,"level":2,"coin":40.06999969482422,"diamond":0,"upgrade_exp":12,"gained_exp":9,"is_upgrade":true},"code":0}
+2014-10-09 17:20:56 | task.info | INFO  |growup api response:{"message":"OK","data":{"uid":608598,"upgrade_content":{"join_guild_limit":2,"daily_gift_limit":2,"last_create_guild_limit":1,"last_daily_gift_limit":2,"last_level":2,"create_guild_limit":1,"friend_limit":12,"gain_rmb":0.019999999552965164,"last_friend_limit":11,"last_join_guild_limit":2},"level":2,"coin":40.06999969482422,"diamond":0,"upgrade_exp":12,"gained_exp":9,"is_upgrade":true},"code":0}
+2014-10-09 17:20:58 | task.info | INFO  |push task notify:{"completed_count":1,"limit_level":1,"description":"首次回复","name":1004,"is_completed":true,"event_param":1,"task_id":1004,"limit_times":1,"type":2,"user":{"uid":608598,"level":608598,"coin":40.06999969482422,"diamond":0,"upgrade_exp":608598,"gained_exp":9,"is_upgrade":true}} result:
+2014-10-09 17:20:58 | task.info | INFO  |info api response:{"message":"OK","data":{"join_guild_limit":2,"uid":608598,"exp":28,"daily_gift_limit":2,"level":3,"coin":40.06999969482422,"create_guild_limit":1,"diamond":0,"upgrade_exp":12,"gained_exp":9,"friend_limit":12},"code":0}
+2014-10-09 17:21:02 | task.info | INFO  |57 | UserTaskListAction | 0 | url=/task/list?atom=dWlkPTYwODU5OCZzaWQ9ZTNjMmJiMmIzOWE3OGU3MCZjYz0xMDAxNyZwZj1hbmRyb2lkJmNuPVdJ%250ARkkmY3Y9TUdBXzEuMS41LjAwX0FfQ04mZHQ9WGlhb21pTUkgNExURSZpbWVpPTg2NTM3MjAyMTE3%250AOTk2MiZpbXNpPTQ2MDAwMTkwMzEwOTcxMyZwbj0%253D%250A | atom=uid=608598&sid=e3c2bb2b39a78e70&cc=10017&pf=android&cn=WIFI&cv=MGA_1.1.5.00_A_CN&dt=XiaomiMI 4LTE&imei=865372021179962&imsi=460001903109713&pn= | postData=null&response={"message":"OK","data":[{"completed_count":0,"limit_level":1,"description":"首次点赞","name":"首次点赞","is_completed":false,"event_param":1,"task_id":1003,"limit_times":1,"type":2},{"completed_count":1,"limit_level":1,"description":"首次回复","name":"首次回复","is_completed":true,"event_param":1,"task_id":1004,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"注册送大礼","name":"注册送大礼","is_completed":false,"event_param":1,"task_id":1001,"limit_times":1,"type":2},{"completed_count":1,"limit_level":1,"description":"首次发帖","name":"首次发帖","is_completed":true,"event_param":1,"task_id":1002,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"加入1个公会","name":"我有人罩","is_completed":false,"event_param":1,"task_id":1007,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"登录就送！你没看错！","name":"登录送魔币","is_completed":false,"event_param":1,"task_id":1008,"limit_times":1,"type":1},{"completed_count":0,"limit_level":1,"description":"绑定手机才能愉快玩耍~","name":"绑定手机","is_completed":false,"event_param":1,"task_id":1005,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"加1个好朋友","name":"找盆友","is_completed":false,"event_param":1,"task_id":1006,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"feed点赞32次！","name":"32个赞！","is_completed":false,"event_param":32,"task_id":1009,"limit_times":1,"type":1},{"completed_count":1,"limit_level":1,"description":"feed评论5次","name":"评论5次","is_completed":false,"event_param":5,"task_id":1011,"limit_times":1,"type":1},{"completed_count":1,"limit_level":1,"description":"发布1个feed","name":"晒装备积分","is_completed":true,"event_param":1,"task_id":1010,"limit_times":1,"type":1}],"code":0}
+2014-10-09 17:22:16 | task.info | INFO  |0 | UserTaskExecAction | 0 | url=/task/exec | atom=null | postData={
+    "uid" : 608598,
+    "event" : 104
+}
+&response={"message":"OK","code":0}
+2014-10-09 17:22:16 | task.info | INFO  |info api response:{"message":"OK","data":{"uid":608598,"join_guild_limit":2,"exp":28,"daily_gift_limit":2,"level":3,"coin":40.06999969482422,"diamond":0,"create_guild_limit":1,"upgrade_exp":12,"gained_exp":9,"friend_limit":12},"code":0}
+2014-10-09 17:22:17 | task.info | INFO  |info api response:{"message":"OK","data":{"uid":608598,"join_guild_limit":2,"exp":28,"daily_gift_limit":2,"level":3,"coin":40.06999969482422,"diamond":0,"create_guild_limit":1,"upgrade_exp":12,"gained_exp":9,"friend_limit":12},"code":0}
+2014-10-09 17:22:18 | task.info | INFO  |0 | UserTaskExecAction | 0 | url=/task/exec | atom=null | postData={
+    "uid" : 608598,
+    "event" : 104
+}
+&response={"message":"OK","code":0}
+2014-10-09 17:22:18 | task.info | INFO  |info api response:{"message":"OK","data":{"uid":608598,"join_guild_limit":2,"exp":28,"daily_gift_limit":2,"level":3,"coin":40.06999969482422,"diamond":0,"create_guild_limit":1,"upgrade_exp":12,"gained_exp":9,"friend_limit":12},"code":0}
+2014-10-09 17:22:18 | task.info | INFO  |info api response:{"message":"OK","data":{"uid":608598,"join_guild_limit":2,"exp":28,"daily_gift_limit":2,"level":3,"coin":40.06999969482422,"diamond":0,"create_guild_limit":1,"upgrade_exp":12,"gained_exp":9,"friend_limit":12},"code":0}
+2014-10-09 17:22:19 | task.info | INFO  |0 | UserTaskExecAction | 0 | url=/task/exec | atom=null | postData={
+    "uid" : 608598,
+    "event" : 104
+}
+&response={"message":"OK","code":0}
+2014-10-09 17:22:19 | task.info | INFO  |info api response:{"message":"OK","data":{"uid":608598,"join_guild_limit":2,"exp":28,"daily_gift_limit":2,"level":3,"coin":40.06999969482422,"diamond":0,"create_guild_limit":1,"upgrade_exp":12,"gained_exp":9,"friend_limit":12},"code":0}
+2014-10-09 17:22:19 | task.info | INFO  |info api response:{"message":"OK","data":{"uid":608598,"join_guild_limit":2,"exp":28,"daily_gift_limit":2,"level":3,"coin":40.06999969482422,"diamond":0,"create_guild_limit":1,"upgrade_exp":12,"gained_exp":9,"friend_limit":12},"code":0}
+2014-10-09 17:22:20 | task.info | INFO  |0 | UserTaskExecAction | 0 | url=/task/exec | atom=null | postData={
+    "uid" : 608598,
+    "event" : 104
+}
+&response={"message":"OK","code":0}
+2014-10-09 17:22:20 | task.info | INFO  |info api response:{"message":"OK","data":{"uid":608598,"join_guild_limit":2,"exp":28,"daily_gift_limit":2,"level":3,"coin":40.06999969482422,"diamond":0,"create_guild_limit":1,"upgrade_exp":12,"gained_exp":9,"friend_limit":12},"code":0}
+2014-10-09 17:22:20 | task.info | INFO  |info api response:{"message":"OK","data":{"uid":608598,"join_guild_limit":2,"exp":28,"daily_gift_limit":2,"level":3,"coin":40.06999969482422,"diamond":0,"create_guild_limit":1,"upgrade_exp":12,"gained_exp":9,"friend_limit":12},"code":0}
+2014-10-09 17:22:20 | task.info | INFO  |add api response:{"message":"OK","data":{"upgrade_content":{"join_guild_limit":2,"daily_gift_limit":2,"last_create_guild_limit":1,"last_daily_gift_limit":2,"create_guild_limit":1,"last_level":3,"friend_limit":13,"last_friend_limit":12,"gain_rmb":0.029999999329447746,"last_join_guild_limit":2},"uid":608598,"level":3,"coin":60.099998474121094,"diamond":0,"upgrade_exp":14,"gained_exp":5,"is_upgrade":true},"code":0}
+2014-10-09 17:22:20 | task.info | INFO  |growup api response:{"message":"OK","data":{"uid":608598,"upgrade_content":{"join_guild_limit":2,"daily_gift_limit":2,"last_create_guild_limit":1,"last_daily_gift_limit":2,"last_level":3,"create_guild_limit":1,"friend_limit":13,"gain_rmb":0.029999999329447746,"last_friend_limit":12,"last_join_guild_limit":2},"level":3,"coin":60.099998474121094,"diamond":0,"upgrade_exp":14,"gained_exp":5,"is_upgrade":true},"code":0}
+2014-10-09 17:22:20 | task.info | INFO  |push task notify:{"completed_count":5,"limit_level":1,"description":"feed评论5次","name":1011,"is_completed":true,"event_param":5,"task_id":1011,"limit_times":1,"type":1,"user":{"uid":608598,"level":608598,"coin":60.099998474121094,"diamond":0,"upgrade_exp":608598,"gained_exp":5,"is_upgrade":true}} result:
+2014-10-09 17:22:26 | task.info | INFO  |57 | UserTaskListAction | 0 | url=/task/list?atom=dWlkPTYwODU5OCZzaWQ9ZTNjMmJiMmIzOWE3OGU3MCZjYz0xMDAxNyZwZj1hbmRyb2lkJmNuPVdJ%250ARkkmY3Y9TUdBXzEuMS41LjAwX0FfQ04mZHQ9WGlhb21pTUkgNExURSZpbWVpPTg2NTM3MjAyMTE3%250AOTk2MiZpbXNpPTQ2MDAwMTkwMzEwOTcxMyZwbj0%253D%250A | atom=uid=608598&sid=e3c2bb2b39a78e70&cc=10017&pf=android&cn=WIFI&cv=MGA_1.1.5.00_A_CN&dt=XiaomiMI 4LTE&imei=865372021179962&imsi=460001903109713&pn= | postData=null&response={"message":"OK","data":[{"completed_count":0,"limit_level":1,"description":"首次点赞","name":"首次点赞","is_completed":false,"event_param":1,"task_id":1003,"limit_times":1,"type":2},{"completed_count":1,"limit_level":1,"description":"首次回复","name":"首次回复","is_completed":true,"event_param":1,"task_id":1004,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"注册送大礼","name":"注册送大礼","is_completed":false,"event_param":1,"task_id":1001,"limit_times":1,"type":2},{"completed_count":1,"limit_level":1,"description":"首次发帖","name":"首次发帖","is_completed":true,"event_param":1,"task_id":1002,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"加入1个公会","name":"我有人罩","is_completed":false,"event_param":1,"task_id":1007,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"登录就送！你没看错！","name":"登录送魔币","is_completed":false,"event_param":1,"task_id":1008,"limit_times":1,"type":1},{"completed_count":0,"limit_level":1,"description":"绑定手机才能愉快玩耍~","name":"绑定手机","is_completed":false,"event_param":1,"task_id":1005,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"加1个好朋友","name":"找盆友","is_completed":false,"event_param":1,"task_id":1006,"limit_times":1,"type":2},{"completed_count":0,"limit_level":1,"description":"feed点赞32次！","name":"32个赞！","is_completed":false,"event_param":32,"task_id":1009,"limit_times":1,"type":1},{"completed_count":5,"limit_level":1,"description":"feed评论5次","name":"评论5次","is_completed":true,"event_param":5,"task_id":1011,"limit_times":1,"type":1},{"completed_count":1,"limit_level":1,"description":"发布1个feed","name":"晒装备积分","is_completed":true,"event_param":1,"task_id":1010,"limit_times":1,"type":1}],"code":0}
+2014-10-09 17:27:28 | task.info | INFO  |0 | UserTaskExecAction | 0 | url=/task/exec | atom=null | postData={
+    "uid" : 608598,
+    "event" : 101
+}
+&response={"message":"OK","code":0}
+2014-10-09 17:27:28 | task.info | INFO  |info api response:{"message":"OK","data":{"uid":608598,"join_guild_limit":2,"exp":36,"daily_gift_limit":2,"level":4,"coin":60.099998474121094,"diamond":0,"create_guild_limit":1,"upgrade_exp":14,"gained_exp":5,"friend_limit":13},"code":0}
+2014-10-09 17:27:28 | task.info | INFO  |add api response:{"message":"OK","data":{"upgrade_content":{"join_guild_limit":2,"daily_gift_limit":2,"last_create_guild_limit":1,"last_daily_gift_limit":2,"create_guild_limit":1,"last_level":4,"friend_limit":14,"last_friend_limit":13,"gain_rmb":0.03999999910593033,"last_join_guild_limit":2},"uid":608598,"level":4,"coin":70.13999938964844,"diamond":0,"upgrade_exp":16,"gained_exp":1,"is_upgrade":true},"code":0}
+2014-10-09 17:27:28 | task.info | INFO  |growup api response:{"message":"OK","data":{"uid":608598,"upgrade_content":{"join_guild_limit":2,"daily_gift_limit":2,"last_create_guild_limit":1,"last_daily_gift_limit":2,"last_level":4,"create_guild_limit":1,"friend_limit":14,"gain_rmb":0.03999999910593033,"last_friend_limit":13,"last_join_guild_limit":2},"level":4,"coin":70.13999938964844,"diamond":0,"upgrade_exp":16,"gained_exp":1,"is_upgrade":true},"code":0}
+2014-10-09 17:27:28 | task.info | INFO  |push task notify:{"completed_count":1,"limit_level":1,"description":"注册送大礼","name":1001,"is_completed":true,"event_param":1,"task_id":1001,"limit_times":1,"type":2,"user":{"uid":608598,"level":608598,"coin":70.13999938964844,"diamond":0,"upgrade_exp":608598,"gained_exp":1,"is_upgrade":true}} result:
+2014-10-09 17:27:38 | task.info | INFO  |0 | UserTaskExecAction | 0 | url=/task/exec | atom=null | postData={
+    "uid" : 608598,
+    "event" : 103
+}
+&response={"message":"OK","code":0}
+2014-10-09 17:27:38 | task.info | INFO  |info api response:{"message":"OK","data":{"join_guild_limit":2,"uid":608598,"exp":46,"daily_gift_limit":2,"level":5,"coin":70.13999938964844,"create_guild_limit":1,"diamond":0,"upgrade_exp":16,"gained_exp":1,"friend_limit":14},"code":0}
+2014-10-09 17:27:38 | task.info | INFO  |add api response:{"message":"OK","data":{"uid":608598,"level":5,"coin":75.13999938964844,"diamond":0,"upgrade_exp":16,"gained_exp":11,"is_upgrade":false},"code":0}
+2014-10-09 17:27:38 | task.info | INFO  |growup api response:{"message":"OK","data":{"uid":608598,"level":5,"coin":75.13999938964844,"diamond":0,"upgrade_exp":16,"gained_exp":11,"is_upgrade":false},"code":0}
+2014-10-09 17:27:38 | task.info | INFO  |push task notify:{"completed_count":1,"limit_level":1,"description":"首次点赞","name":1003,"is_completed":true,"event_param":1,"task_id":1003,"limit_times":1,"type":2,"user":{"uid":608598,"level":608598,"coin":75.13999938964844,"diamond":0,"upgrade_exp":608598,"gained_exp":11,"is_upgrade":false}} result:
+2014-10-09 17:27:38 | task.info | INFO  |info api response:{"message":"OK","data":{"join_guild_limit":2,"uid":608598,"exp":56,"daily_gift_limit":2,"level":5,"coin":75.13999938964844,"create_guild_limit":1,"diamond":0,"upgrade_exp":16,"gained_exp":11,"friend_limit":14},"code":0}
+2014-10-09 17:27:46 | task.info | INFO  |1 | UserTaskExecAction | 0 | url=/task/exec | atom=null | postData={
+    "uid" : 608598,
+    "event" : 105
+}
+&response={"message":"OK","code":0}
+2014-10-09 17:27:46 | task.info | INFO  |info api response:{"message":"OK","data":{"uid":608598,"join_guild_limit":2,"exp":56,"daily_gift_limit":2,"level":5,"coin":75.13999938964844,"diamond":0,"create_guild_limit":1,"upgrade_exp":16,"gained_exp":11,"friend_limit":14},"code":0}
+2014-10-09 17:27:46 | task.info | INFO  |add api response:{"message":"OK","data":{"upgrade_content":{"join_guild_limit":2,"daily_gift_limit":2,"last_create_guild_limit":1,"last_daily_gift_limit":2,"create_guild_limit":1,"last_level":5,"friend_limit":15,"last_friend_limit":14,"gain_rmb":0.05000000074505806,"last_join_guild_limit":2},"uid":608598,"level":5,"coin":80.19000244140625,"diamond":0,"upgrade_exp":19,"gained_exp":5,"is_upgrade":true},"code":0}
+2014-10-09 17:27:46 | task.info | INFO  |growup api response:{"message":"OK","data":{"uid":608598,"upgrade_content":{"join_guild_limit":2,"daily_gift_limit":2,"last_create_guild_limit":1,"last_daily_gift_limit":2,"last_level":5,"create_guild_limit":1,"friend_limit":15,"gain_rmb":0.05000000074505806,"last_friend_limit":14,"last_join_guild_limit":2},"level":5,"coin":80.19000244140625,"diamond":0,"upgrade_exp":19,"gained_exp":5,"is_upgrade":true},"code":0}
+2014-10-09 17:27:46 | task.info | INFO  |push task notify:{"completed_count":1,"limit_level":1,"description":"绑定手机才能愉快玩耍~","name":1005,"is_completed":true,"event_param":1,"task_id":1005,"limit_times":1,"type":2,"user":{"uid":608598,"level":608598,"coin":80.19000244140625,"diamond":0,"upgrade_exp":608598,"gained_exp":5,"is_upgrade":true}} result:
+2014-10-09 17:27:55 | task.info | INFO  |0 | UserTaskExecAction | 0 | url=/task/exec | atom=null | postData={
+    "uid" : 608598,
+    "event" : 106
+}
+&response={"message":"OK","code":0}
+2014-10-09 17:27:56 | task.info | INFO  |info api response:{"message":"OK","data":{"join_guild_limit":2,"uid":608598,"exp":66,"daily_gift_limit":2,"level":6,"coin":80.19000244140625,"create_guild_limit":1,"diamond":0,"upgrade_exp":19,"gained_exp":5,"friend_limit":15},"code":0}
+2014-10-09 17:27:56 | task.info | INFO  |add api response:{"message":"OK","data":{"uid":608598,"level":6,"coin":90.19000244140625,"diamond":0,"upgrade_exp":19,"gained_exp":15,"is_upgrade":false},"code":0}
+2014-10-09 17:27:56 | task.info | INFO  |growup api response:{"message":"OK","data":{"uid":608598,"level":6,"coin":90.19000244140625,"diamond":0,"upgrade_exp":19,"gained_exp":15,"is_upgrade":false},"code":0}
+2014-10-09 17:27:56 | task.info | INFO  |push task notify:{"completed_count":1,"limit_level":1,"description":"加1个好朋友","name":1006,"is_completed":true,"event_param":1,"task_id":1006,"limit_times":1,"type":2,"user":{"uid":608598,"level":608598,"coin":90.19000244140625,"diamond":0,"upgrade_exp":608598,"gained_exp":15,"is_upgrade":false}} result:
+2014-10-09 17:28:00 | task.info | INFO  |0 | UserTaskExecAction | 0 | url=/task/exec | atom=null | postData={
+    "uid" : 608598,
+    "event" : 107
+}
+&response={"message":"OK","code":0}
+2014-10-09 17:28:00 | task.info | INFO  |info api response:{"message":"OK","data":{"join_guild_limit":2,"uid":608598,"exp":76,"daily_gift_limit":2,"level":6,"coin":90.19000244140625,"create_guild_limit":1,"diamond":0,"upgrade_exp":19,"gained_exp":15,"friend_limit":15},"code":0}
+2014-10-09 17:28:00 | task.info | INFO  |add api response:{"message":"OK","data":{"upgrade_content":{"join_guild_limit":2,"daily_gift_limit":2,"last_create_guild_limit":1,"last_daily_gift_limit":2,"create_guild_limit":1,"last_level":6,"friend_limit":16,"last_friend_limit":15,"gain_rmb":0.05999999865889549,"last_join_guild_limit":2},"uid":608598,"level":6,"coin":110.25,"diamond":0,"upgrade_exp":23,"gained_exp":16,"is_upgrade":true},"code":0}
+2014-10-09 17:28:00 | task.info | INFO  |growup api response:{"message":"OK","data":{"uid":608598,"upgrade_content":{"join_guild_limit":2,"daily_gift_limit":2,"last_create_guild_limit":1,"last_daily_gift_limit":2,"last_level":6,"create_guild_limit":1,"friend_limit":16,"gain_rmb":0.05999999865889549,"last_friend_limit":15,"last_join_guild_limit":2},"level":6,"coin":110.25,"diamond":0,"upgrade_exp":23,"gained_exp":16,"is_upgrade":true},"code":0}
+2014-10-09 17:28:00 | task.info | INFO  |push task notify:{"completed_count":1,"limit_level":1,"description":"加入1个公会","name":1007,"is_completed":true,"event_param":1,"task_id":1007,"limit_times":1,"type":2,"user":{"uid":608598,"level":608598,"coin":110.25,"diamond":0,"upgrade_exp":608598,"gained_exp":16,"is_upgrade":true}} result:
+2014-10-09 17:28:04 | task.info | INFO  |0 | UserTaskExecAction | 0 | url=/task/exec | atom=null | postData={
+    "uid" : 608598,
+    "event" : 108
+}
+&response={"message":"OK","code":0}
+2014-10-09 17:28:04 | task.info | INFO  |info api response:{"message":"OK","data":{"join_guild_limit":2,"uid":608598,"exp":96,"daily_gift_limit":2,"level":7,"coin":110.25,"create_guild_limit":1,"diamond":0,"upgrade_exp":23,"gained_exp":16,"friend_limit":16},"code":0}
+2014-10-09 17:28:05 | task.info | INFO  |add api response:{"message":"OK","data":{"upgrade_content":{"join_guild_limit":2,"daily_gift_limit":2,"last_create_guild_limit":1,"last_daily_gift_limit":2,"create_guild_limit":1,"last_level":7,"friend_limit":17,"last_friend_limit":16,"gain_rmb":0.07000000029802322,"last_join_guild_limit":2},"uid":608598,"level":7,"coin":130.32000732421875,"diamond":0,"upgrade_exp":27,"gained_exp":1,"is_upgrade":true},"code":0}
+2014-10-09 17:28:05 | task.info | INFO  |growup api response:{"message":"OK","data":{"uid":608598,"upgrade_content":{"join_guild_limit":2,"daily_gift_limit":2,"last_create_guild_limit":1,"last_daily_gift_limit":2,"last_level":7,"create_guild_limit":1,"friend_limit":17,"gain_rmb":0.07000000029802322,"last_friend_limit":16,"last_join_guild_limit":2},"level":7,"coin":130.32000732421875,"diamond":0,"upgrade_exp":27,"gained_exp":1,"is_upgrade":true},"code":0}
+2014-10-09 17:28:05 | task.info | INFO  |push task notify:{"completed_count":1,"limit_level":1,"description":"登录就送！你没看错！","name":1008,"is_completed":true,"event_param":1,"task_id":1008,"limit_times":1,"type":1,"user":{"uid":608598,"level":608598,"coin":130.32000732421875,"diamond":0,"upgrade_exp":608598,"gained_exp":1,"is_upgrade":true}} result:
+2014-10-09 17:28:11 | task.info | INFO  |50 | UserTaskListAction | 0 | url=/task/list?atom=dWlkPTYwODU5OCZzaWQ9ZTNjMmJiMmIzOWE3OGU3MCZjYz0xMDAxNyZwZj1hbmRyb2lkJmNuPVdJ%250ARkkmY3Y9TUdBXzEuMS41LjAwX0FfQ04mZHQ9WGlhb21pTUkgNExURSZpbWVpPTg2NTM3MjAyMTE3%250AOTk2MiZpbXNpPTQ2MDAwMTkwMzEwOTcxMyZwbj0%253D%250A | atom=uid=608598&sid=e3c2bb2b39a78e70&cc=10017&pf=android&cn=WIFI&cv=MGA_1.1.5.00_A_CN&dt=XiaomiMI 4LTE&imei=865372021179962&imsi=460001903109713&pn= | postData=null&response={"message":"OK","data":[{"completed_count":1,"limit_level":1,"description":"首次点赞","name":"首次点赞","is_completed":true,"event_param":1,"task_id":1003,"limit_times":1,"type":2},{"completed_count":1,"limit_level":1,"description":"首次回复","name":"首次回复","is_completed":true,"event_param":1,"task_id":1004,"limit_times":1,"type":2},{"completed_count":1,"limit_level":1,"description":"注册送大礼","name":"注册送大礼","is_completed":true,"event_param":1,"task_id":1001,"limit_times":1,"type":2},{"completed_count":1,"limit_level":1,"description":"首次发帖","name":"首次发帖","is_completed":true,"event_param":1,"task_id":1002,"limit_times":1,"type":2},{"completed_count":1,"limit_level":1,"description":"加入1个公会","name":"我有人罩","is_completed":true,"event_param":1,"task_id":1007,"limit_times":1,"type":2},{"completed_count":1,"limit_level":1,"description":"登录就送！你没看错！","name":"登录送魔币","is_completed":true,"event_param":1,"task_id":1008,"limit_times":1,"type":1},{"completed_count":1,"limit_level":1,"description":"绑定手机才能愉快玩耍~","name":"绑定手机","is_completed":true,"event_param":1,"task_id":1005,"limit_times":1,"type":2},{"completed_count":1,"limit_level":1,"description":"加1个好朋友","name":"找盆友","is_completed":true,"event_param":1,"task_id":1006,"limit_times":1,"type":2},{"completed_count":1,"limit_level":1,"description":"feed点赞32次！","name":"32个赞！","is_completed":false,"event_param":32,"task_id":1009,"limit_times":1,"type":1},{"completed_count":5,"limit_level":1,"description":"feed评论5次","name":"评论5次","is_completed":true,"event_param":5,"task_id":1011,"limit_times":1,"type":1},{"completed_count":1,"limit_level":1,"description":"发布1个feed","name":"晒装备积分","is_completed":true,"event_param":1,"task_id":1010,"limit_times":1,"type":1}],"code":0}
