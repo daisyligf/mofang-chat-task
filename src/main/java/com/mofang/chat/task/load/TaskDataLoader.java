@@ -31,11 +31,6 @@ public class TaskDataLoader
             		if(!StringUtil.isLong(line))
             			continue;
             		
-            		if(index <= 100000)
-            		{
-            			index++;
-            			continue;
-            		}
             		userId = Long.parseLong(line);
             		create(userId, event);
             		String message = "[" + format.format(new Date()) +  "]  " + (index++) + " create task completed.";

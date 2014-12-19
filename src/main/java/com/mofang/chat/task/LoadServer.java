@@ -29,8 +29,6 @@ public class LoadServer {
 			int event = Integer.parseInt(args[2]);
 			String filePath = args[1];
 			
-			//int event = 107;
-			//String filePath = "/Users/milo/document/workspace/mofang.chat.task/guild_userlist_new.txt";
 			TaskDataLoader loader = new TaskDataLoader();
 			loader.handle(filePath, event);
 			System.out.println("task execute completed!");

@@ -229,7 +229,7 @@ public class UserTaskServiceImpl implements UserTaskService
 						userJson.put("is_upgrade", dataJson.optBoolean("is_upgrade", false));
 						msgJson.put("user", userJson);
 						
-						//pushNotify(msgJson);
+						pushNotify(msgJson);
 					}
 				}
 			}
