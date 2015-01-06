@@ -19,5 +19,6 @@ public class GlobalObjectInitializer extends AbstractInitializer
 		GlobalObject.initMysql(GlobalConfig.MYSQL_CONFIG_PATH);
 		GlobalObject.initGrowupHttpClient(GlobalConfig.HTTP_CLIENT_GROWUP_CONFIG_PATH);
 		GlobalObject.initChatServiceHttpClient(GlobalConfig.HTTP_CLIENT_CHATSERVICE_CONFIG_PATH);
+		GlobalObject.initMedalHttpClient(GlobalConfig.HTTP_CLIENT_MEDAL_CONFIG_PATH);
 	}
 }

@@ -31,6 +31,8 @@ import com.mofang.framework.web.server.reactor.context.HttpRequestContext;
  * 114: 万元户(领取魔币到达1W)
  * 115: 赌神(天天翻)
  * 116: 精华内容(帖子被加精) 
+ * 117: 观看视频
+ * 118: 下载游戏
  *
  */
 public class UserTaskLogicImpl implements UserTaskLogic
@@ -93,8 +95,8 @@ public class UserTaskLogicImpl implements UserTaskLogic
 	public ResultValue getTaskList(HttpRequestContext context) throws Exception
 	{
 		ResultValue result = new ResultValue();
-		String uidString = context.getParameters("uid");
-		if(!StringUtil.isLong(uidString))
+		String strUserId = context.getParameters("uid");
+		if(!StringUtil.isLong(strUserId))
 		{
 			result.setCode(ReturnCode.CLIENT_REQUEST_DATA_IS_INVALID);
 			result.setMessage("参数无效");
@@ -103,7 +105,7 @@ public class UserTaskLogicImpl implements UserTaskLogic
 		
 		try
 		{
-			long userId = Long.parseLong(uidString);
+			long userId = Long.parseLong(strUserId);
 			JSONArray data = userTaskService.getTaskList(userId);
 			if(null == data)
 				data = new JSONArray();
@@ -121,11 +123,18 @@ public class UserTaskLogicImpl implements UserTaskLogic
 	}
 
 	@Override
-	public ResultValue share(HttpRequestContext context) throws Exception
+	public ResultValue getTaskCompletedCount(HttpRequestContext context) throws Exception
 	{
 		ResultValue result = new ResultValue();
-		String uidString = context.getParameters("uid");
-		if(!StringUtil.isLong(uidString))
+		String strUserId = context.getParameters("uid");
+		String strMedalEvent = context.getParameters("medal_event");
+		if(!StringUtil.isLong(strUserId))
+		{
+			result.setCode(ReturnCode.CLIENT_REQUEST_DATA_IS_INVALID);
+			result.setMessage("参数无效");
+			return result;
+		}
+		if(!StringUtil.isInteger(strMedalEvent))
 		{
 			result.setCode(ReturnCode.CLIENT_REQUEST_DATA_IS_INVALID);
 			result.setMessage("参数无效");
@@ -134,7 +143,39 @@ public class UserTaskLogicImpl implements UserTaskLogic
 		
 		try
 		{
-			long userId = Long.parseLong(uidString);
+			long userId = Long.parseLong(strUserId);
+			int medalEvent = Integer.parseInt(strMedalEvent);
+			long completedCount = userTaskService.getTaskCompletedCount(userId, medalEvent);
+			JSONObject data = new JSONObject();
+			data.put("count", completedCount);
+			
+			///返回结果
+			result.setCode(ReturnCode.SUCCESS);
+			result.setMessage("OK");
+			result.setData(data);
+			return result;
+		}
+		catch(Exception e)
+		{
+			throw new Exception("at UserTaskLogicImpl.getTaskCompletedCount throw an error.", e);
+		}
+	}
+
+	@Override
+	public ResultValue share(HttpRequestContext context) throws Exception
+	{
+		ResultValue result = new ResultValue();
+		String strUserId = context.getParameters("uid");
+		if(!StringUtil.isLong(strUserId))
+		{
+			result.setCode(ReturnCode.CLIENT_REQUEST_DATA_IS_INVALID);
+			result.setMessage("参数无效");
+			return result;
+		}
+		
+		try
+		{
+			long userId = Long.parseLong(strUserId);
 			int event = 109;
 			///执行任务
 			userTaskService.execute(userId, event);
@@ -154,8 +195,8 @@ public class UserTaskLogicImpl implements UserTaskLogic
 	public ResultValue active(HttpRequestContext context) throws Exception
 	{
 		ResultValue result = new ResultValue();
-		String uidString = context.getParameters("uid");
-		if(!StringUtil.isLong(uidString))
+		String strUserId = context.getParameters("uid");
+		if(!StringUtil.isLong(strUserId))
 		{
 			result.setCode(ReturnCode.CLIENT_REQUEST_DATA_IS_INVALID);
 			result.setMessage("参数无效");
@@ -164,7 +205,7 @@ public class UserTaskLogicImpl implements UserTaskLogic
 		
 		try
 		{
-			long userId = Long.parseLong(uidString);
+			long userId = Long.parseLong(strUserId);
 			int event = 108;
 			///执行任务
 			userTaskService.execute(userId, event);
@@ -184,8 +225,8 @@ public class UserTaskLogicImpl implements UserTaskLogic
 	public ResultValue startGame(HttpRequestContext context) throws Exception
 	{
 		ResultValue result = new ResultValue();
-		String uidString = context.getParameters("uid");
-		if(!StringUtil.isLong(uidString))
+		String strUserId = context.getParameters("uid");
+		if(!StringUtil.isLong(strUserId))
 		{
 			result.setCode(ReturnCode.CLIENT_REQUEST_DATA_IS_INVALID);
 			result.setMessage("参数无效");
@@ -194,7 +235,7 @@ public class UserTaskLogicImpl implements UserTaskLogic
 		
 		try
 		{
-			long userId = Long.parseLong(uidString);
+			long userId = Long.parseLong(strUserId);
 			int event = 111;
 			///执行任务
 			userTaskService.execute(userId, event);
@@ -207,6 +248,66 @@ public class UserTaskLogicImpl implements UserTaskLogic
 		catch(Exception e)
 		{
 			throw new Exception("at UserTaskLogicImpl.startGame throw an error.", e);
+		}
+	}
+	
+	@Override
+	public ResultValue playVideo(HttpRequestContext context) throws Exception
+	{
+		ResultValue result = new ResultValue();
+		String strUserId = context.getParameters("uid");
+		if(!StringUtil.isLong(strUserId))
+		{
+			result.setCode(ReturnCode.CLIENT_REQUEST_DATA_IS_INVALID);
+			result.setMessage("参数无效");
+			return result;
+		}
+		
+		try
+		{
+			long userId = Long.parseLong(strUserId);
+			int event = 117;
+			///执行任务
+			userTaskService.execute(userId, event);
+			
+			///返回结果
+			result.setCode(ReturnCode.SUCCESS);
+			result.setMessage("OK");
+			return result;
+		}
+		catch(Exception e)
+		{
+			throw new Exception("at UserTaskLogicImpl.playVideo throw an error.", e);
+		}
+	}
+	
+	@Override
+	public ResultValue downloadGame(HttpRequestContext context) throws Exception
+	{
+		ResultValue result = new ResultValue();
+		String strUserId = context.getParameters("uid");
+		if(!StringUtil.isLong(strUserId))
+		{
+			result.setCode(ReturnCode.CLIENT_REQUEST_DATA_IS_INVALID);
+			result.setMessage("参数无效");
+			return result;
+		}
+		
+		try
+		{
+			long userId = Long.parseLong(strUserId);
+			int event = 118;
+			///执行任务
+			userTaskService.execute(userId, event);
+			
+			///返回结果
+			result.setCode(ReturnCode.SUCCESS);
+			result.setMessage("OK");
+			return result;
+		}
+		catch(Exception e)
+		{
+			throw new Exception("at UserTaskLogicImpl.downloadGame throw an error.", e);
 		}
 	}
 }

@@ -32,7 +32,9 @@ public class TaskServiceImpl implements TaskService
 	{
 		try
 		{
-			taskRedis.save(model);
+			///如果勋章事件 == 0, 则是普通任务
+			if(model.getMedalEvent() == 0)
+				taskRedis.save(model);
 			taskDao.add(model);
 		}
 		catch(Exception e)
@@ -47,7 +49,9 @@ public class TaskServiceImpl implements TaskService
 	{
 		try
 		{
-			taskRedis.save(model);
+			///如果勋章事件 == 0, 则是普通任务
+			if(model.getMedalEvent() == 0)
+				taskRedis.save(model);
 			taskDao.update(model);
 		}
 		catch(Exception e)

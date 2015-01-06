@@ -42,6 +42,8 @@ public class Task
 	private Float rewardDiamond;
 	@ColumnName(name="reward_exp")
 	private Integer rewardExp;
+	@ColumnName(name="medal_event")
+	private Integer medalEvent = 0;
 	@ColumnName(name="create_time")
 	private Date createTime;
 	
@@ -116,6 +118,12 @@ public class Task
 	}
 	public void setRewardExp(Integer rewardExp) {
 		this.rewardExp = rewardExp;
+	}
+	public Integer getMedalEvent() {
+		return medalEvent;
+	}
+	public void setMedalEvent(Integer medalEvent) {
+		this.medalEvent = medalEvent;
 	}
 	public Date getCreateTime() {
 		return createTime;

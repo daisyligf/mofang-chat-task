@@ -90,6 +90,7 @@ public class TaskLogicImpl implements TaskLogic
 			Double rewardCoin = json.optDouble("reward_coin", 0.0);
 			Double rewardDiamond = json.optDouble("reward_diamond", 0.0);
 			int rewardExp = json.optInt("reward_exp", 0);
+			int medalEvent = json.optInt("medal_event", 0);
 			
 			Task taskInfo = new Task();
 			int taskId = taskRedis.getMaxId().intValue();
@@ -105,6 +106,7 @@ public class TaskLogicImpl implements TaskLogic
 			taskInfo.setRewardCoin(rewardCoin.floatValue());
 			taskInfo.setRewardDiamond(rewardDiamond.floatValue());
 			taskInfo.setRewardExp(rewardExp);
+			taskInfo.setMedalEvent(medalEvent);
 			taskInfo.setCreateTime(new Date());
 			
 			///保存任务信息
@@ -170,6 +172,7 @@ public class TaskLogicImpl implements TaskLogic
 			Double rewardCoin = json.optDouble("reward_coin", 0.0);
 			Double rewardDiamond = json.optDouble("reward_diamond", 0.0);
 			int rewardExp = json.optInt("reward_exp", 0);
+			int medalEvent = json.optInt("medal_event", 0);
 			
 			Task taskInfo = taskRedis.getInfo(taskId);
 			if(null == taskInfo)
@@ -188,6 +191,7 @@ public class TaskLogicImpl implements TaskLogic
 			taskInfo.setRewardCoin(rewardCoin.floatValue());
 			taskInfo.setRewardDiamond(rewardDiamond.floatValue());
 			taskInfo.setRewardExp(rewardExp);
+			taskInfo.setMedalEvent(medalEvent);
 			
 			///保存任务信息
 			taskService.update(taskInfo);

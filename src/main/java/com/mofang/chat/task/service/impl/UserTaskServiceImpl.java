@@ -9,6 +9,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 import com.mofang.chat.task.component.GrowupComponent;
+import com.mofang.chat.task.component.MedalComponent;
 import com.mofang.chat.task.global.GlobalConfig;
 import com.mofang.chat.task.global.GlobalObject;
 import com.mofang.chat.task.global.common.TaskType;
@@ -118,6 +119,21 @@ public class UserTaskServiceImpl implements UserTaskService
 		return data;
 	}
 	
+	@Override
+	public long getTaskCompletedCount(long userId, int medalEvent) throws Exception
+	{
+		Task task = taskDao.getTaskByMedalEvent(medalEvent);
+		if(null == task)
+			return 0L;
+		
+		int taskId = task.getTaskId();
+		int taskType = task.getType();
+		if(taskType != TaskType.ONETIME)
+			return 0L;
+		
+		return onetimeTaskRedis.getCompletedCount(userId, taskId);
+	}
+	
 	class TaskExecutor implements Runnable
 	{
 		private long userId;
@@ -204,32 +220,42 @@ public class UserTaskServiceImpl implements UserTaskService
 				needReward = (completedCount <= needCompletedCount) && ((completedCount % taskInfo.getEventParam()) == 0);
 				if(needReward)
 				{
-					///请求成长系统
-					JSONObject dataJson = reqGrowup(taskInfo);
-					if(null != dataJson)
+					///如果勋章事件>0，则请求勋章系统，反之请求成长系统
+					if(taskInfo.getMedalEvent() > 0)
 					{
-						///构建push通知JSON对象
-						JSONObject msgJson = new JSONObject();
-						msgJson.put("task_id", taskInfo.getTaskId());
-						msgJson.put("name", taskInfo.getTaskName());
-						msgJson.put("type", taskInfo.getType());
-						msgJson.put("description", taskInfo.getDescription());
-						msgJson.put("limit_level", taskInfo.getLimitLevel());
-						msgJson.put("limit_times", taskInfo.getLimitTimes());
-						msgJson.put("event_param", taskInfo.getEventParam());
-						msgJson.put("completed_count", completedCount > needCompletedCount ? needCompletedCount : completedCount);
-						msgJson.put("is_completed", isCompleted);
-						JSONObject userJson = new JSONObject();
-						userJson.put("uid", dataJson.optLong("uid", 0L));
-						userJson.put("coin", dataJson.optDouble("coin", 0));
-						userJson.put("diamond", dataJson.optDouble("diamond", 0L));
-						userJson.put("gained_exp", dataJson.optInt("gained_exp", 0));
-						userJson.put("upgrade_exp", dataJson.optInt("uid", 0));
-						userJson.put("level", dataJson.optInt("uid", 0));
-						userJson.put("is_upgrade", dataJson.optBoolean("is_upgrade", false));
-						msgJson.put("user", userJson);
-						
-						pushNotify(msgJson);
+						reqMedal(userId, taskInfo.getMedalEvent());
+					}
+					else
+					{
+						///请求成长系统
+						JSONObject dataJson = reqGrowup(taskInfo);
+						if(null != dataJson)
+						{
+							///构建push通知JSON对象
+							JSONObject msgJson = new JSONObject();
+							msgJson.put("task_id", taskInfo.getTaskId());
+							msgJson.put("name", taskInfo.getTaskName());
+							msgJson.put("type", taskInfo.getType());
+							msgJson.put("description", taskInfo.getDescription());
+							msgJson.put("limit_level", taskInfo.getLimitLevel());
+							msgJson.put("limit_times", taskInfo.getLimitTimes());
+							msgJson.put("event_param", taskInfo.getEventParam());
+							msgJson.put("reward_coin", taskInfo.getRewardCoin());
+							msgJson.put("reward_exp", taskInfo.getRewardExp());
+							msgJson.put("completed_count", completedCount > needCompletedCount ? needCompletedCount : completedCount);
+							msgJson.put("is_completed", isCompleted);
+							JSONObject userJson = new JSONObject();
+							userJson.put("uid", dataJson.optLong("uid", 0L));
+							userJson.put("coin", dataJson.optDouble("coin", 0));
+							userJson.put("diamond", dataJson.optDouble("diamond", 0L));
+							userJson.put("gained_exp", dataJson.optInt("gained_exp", 0));
+							userJson.put("upgrade_exp", dataJson.optInt("upgrade_exp", 0));
+							userJson.put("level", dataJson.optInt("level", 0));
+							userJson.put("is_upgrade", dataJson.optBoolean("is_upgrade", false));
+							msgJson.put("user", userJson);
+							
+							pushNotify(msgJson);
+						}
 					}
 				}
 			}
@@ -272,6 +298,34 @@ public class UserTaskServiceImpl implements UserTaskService
 			{
 				GlobalObject.ERROR_LOG.error("TaskExecutor.reqGrowup throw an error. ", e);
 				return null;
+			}
+		}
+		
+		private void reqMedal(long userId, int medalEvent)
+		{
+			try
+			{
+				String result = MedalComponent.completed(userId, medalEvent);
+				if(StringUtil.isNullOrEmpty(result))
+				{
+					GlobalObject.ERROR_LOG.error("at TaskExecutor.reqMedal throw an error, message: response is null or empty.");
+					return;
+				}
+				
+				JSONObject responseJson = new JSONObject(result);
+				int code = responseJson.optInt("code", -1);
+				if(0 != code) 
+				{
+					GlobalObject.ERROR_LOG.error("at TaskExecutor.reqMedal throw an error, message: server return an error code." + responseJson.toString());
+					return;
+				}
+				
+				GlobalObject.INFO_LOG.info("medal api response:" + responseJson.toString());
+			}
+			catch(Exception e)
+			{
+				GlobalObject.ERROR_LOG.error("TaskExecutor.reqMedal throw an error. ", e);
+				return;
 			}
 		}
 		

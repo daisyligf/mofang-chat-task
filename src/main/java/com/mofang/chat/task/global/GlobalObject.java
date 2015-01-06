@@ -66,6 +66,11 @@ public class GlobalObject
 	public static CloseableHttpClient HTTP_CLIENT_CHATSERVICE;
 	
 	/**
+	 * Global Medal Http Client Instance
+	 */
+	public static CloseableHttpClient HTTP_CLIENT_MEDAL;
+	
+	/**
 	 * Global Info Logger Instance 
 	 */
 	public final static Logger INFO_LOG = Logger.getLogger("task.info");
@@ -190,8 +195,21 @@ public class GlobalObject
 	{
         try
         {
-        	HttpClientProvider provider = getHttpClientProvider(configPath);
+        		HttpClientProvider provider = getHttpClientProvider(configPath);
 			HTTP_CLIENT_CHATSERVICE = provider.getHttpClient();
+        }
+        catch(Exception e)
+        {
+        	throw e;
+        }
+	}
+	
+	public static void initMedalHttpClient(String configPath) throws Exception
+	{
+        try
+        {
+        		HttpClientProvider provider = getHttpClientProvider(configPath);
+			HTTP_CLIENT_MEDAL = provider.getHttpClient();
         }
         catch(Exception e)
         {

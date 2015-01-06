@@ -20,4 +20,6 @@ public interface TaskDao
 	public Task getInfo(Integer taskId) throws Exception;
 	
 	public List<Task> getListByEvent(int event) throws Exception;
+	
+	public Task getTaskByMedalEvent(int medalEvent) throws Exception;
 }

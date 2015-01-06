@@ -14,9 +14,15 @@ public interface UserTaskLogic
 	
 	public ResultValue getTaskList(HttpRequestContext context) throws Exception;
 	
+	public ResultValue getTaskCompletedCount(HttpRequestContext context) throws Exception;
+	
 	public ResultValue share(HttpRequestContext context) throws Exception;
 	
 	public ResultValue active(HttpRequestContext context) throws Exception;
 	
 	public ResultValue startGame(HttpRequestContext context) throws Exception;
+	
+	public ResultValue playVideo(HttpRequestContext context) throws Exception;
+	
+	public ResultValue downloadGame(HttpRequestContext context) throws Exception;
 }

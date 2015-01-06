@@ -12,4 +12,6 @@ public interface UserTaskService
 	public boolean execute(long userId, int event) throws Exception;
 	
 	public JSONArray getTaskList(long userId) throws Exception;
+	
+	public long getTaskCompletedCount(long userId, int medalEvent) throws Exception;
 }
