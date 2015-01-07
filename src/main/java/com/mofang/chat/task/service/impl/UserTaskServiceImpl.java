@@ -223,7 +223,22 @@ public class UserTaskServiceImpl implements UserTaskService
 					///如果勋章事件>0，则请求勋章系统，反之请求成长系统
 					if(taskInfo.getMedalEvent() > 0)
 					{
-						reqMedal(userId, taskInfo.getMedalEvent());
+						JSONObject dataJson = reqMedal(userId, taskInfo.getMedalEvent());
+						if(null != dataJson)
+						{
+							///构建push通知JSON对象
+							JSONObject msgJson = new JSONObject();
+							msgJson.put("badge_id", dataJson.optInt("badge_id", 0));
+							msgJson.put("name", dataJson.optString("name", ""));
+							msgJson.put("description", dataJson.optString("description", ""));
+							msgJson.put("instru", dataJson.optString("instru", ""));
+							msgJson.put("big_icon", dataJson.optString("big_icon", ""));
+							msgJson.put("small_icon", dataJson.optString("small_icon", ""));
+							msgJson.put("default_icon", dataJson.optString("default_icon", ""));
+							msgJson.put("default_small_icon", dataJson.optString("default_small_icon", ""));
+							///发送通知
+							pushMedalNotify(msgJson);
+						}
 					}
 					else
 					{
@@ -253,8 +268,8 @@ public class UserTaskServiceImpl implements UserTaskService
 							userJson.put("level", dataJson.optInt("level", 0));
 							userJson.put("is_upgrade", dataJson.optBoolean("is_upgrade", false));
 							msgJson.put("user", userJson);
-							
-							pushNotify(msgJson);
+							///发送通知
+							pushTaskNotify(msgJson);
 						}
 					}
 				}
@@ -301,7 +316,7 @@ public class UserTaskServiceImpl implements UserTaskService
 			}
 		}
 		
-		private void reqMedal(long userId, int medalEvent)
+		private JSONObject reqMedal(long userId, int medalEvent)
 		{
 			try
 			{
@@ -309,7 +324,7 @@ public class UserTaskServiceImpl implements UserTaskService
 				if(StringUtil.isNullOrEmpty(result))
 				{
 					GlobalObject.ERROR_LOG.error("at TaskExecutor.reqMedal throw an error, message: response is null or empty.");
-					return;
+					return null;
 				}
 				
 				JSONObject responseJson = new JSONObject(result);
@@ -317,19 +332,27 @@ public class UserTaskServiceImpl implements UserTaskService
 				if(0 != code) 
 				{
 					GlobalObject.ERROR_LOG.error("at TaskExecutor.reqMedal throw an error, message: server return an error code." + responseJson.toString());
-					return;
+					return null;
+				}
+				
+				JSONObject data = responseJson.optJSONObject("data");
+				if(null == data)
+				{
+					GlobalObject.ERROR_LOG.error("at TaskExecutor.reqMedal throw an error, message: server return an null data." + responseJson.toString());
+					return null;
 				}
 				
 				GlobalObject.INFO_LOG.info("medal api response:" + responseJson.toString());
+				return data;
 			}
 			catch(Exception e)
 			{
 				GlobalObject.ERROR_LOG.error("TaskExecutor.reqMedal throw an error. ", e);
-				return;
+				return null;
 			}
 		}
 		
-		private void pushNotify(JSONObject msgJson)
+		private void pushTaskNotify(JSONObject msgJson)
 		{
 			try
 			{
@@ -345,7 +368,27 @@ public class UserTaskServiceImpl implements UserTaskService
 			}
 			catch(Exception e)
 			{
-				GlobalObject.ERROR_LOG.error("at TaskExecutor.pushNotify throw an error.", e);
+				GlobalObject.ERROR_LOG.error("at TaskExecutor.pushTaskNotify throw an error.", e);
+			}
+		}
+		
+		private void pushMedalNotify(JSONObject msgJson)
+		{
+			try
+			{
+				JSONObject pushJson = new JSONObject();
+				pushJson.put("act", "push_medal");
+				pushJson.put("uid", userId);
+				pushJson.put("msg", msgJson);
+				pushJson.put("is_show_notify", false);
+				pushJson.put("click_act", "");
+				
+				String result = HttpClientSender.post(GlobalObject.HTTP_CLIENT_CHATSERVICE, GlobalConfig.CHAT_SERVICE_URL, pushJson.toString());
+				GlobalObject.INFO_LOG.info("push task notify:" + pushJson.toString() + " result:" + result);
+			}
+			catch(Exception e)
+			{
+				GlobalObject.ERROR_LOG.error("at TaskExecutor.pushMedalNotify throw an error.", e);
 			}
 		}
 	}
