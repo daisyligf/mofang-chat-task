@@ -25,4 +25,6 @@ public interface UserTaskLogic
 	public ResultValue playVideo(HttpRequestContext context) throws Exception;
 	
 	public ResultValue downloadGame(HttpRequestContext context) throws Exception;
+	
+	public ResultValue appstoreComment(HttpRequestContext context) throws Exception;
 }
