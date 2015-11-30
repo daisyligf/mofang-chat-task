@@ -6,6 +6,7 @@ import org.json.JSONObject;
 
 import com.mofang.chat.task.global.ReturnCode;
 import com.mofang.chat.task.global.ResultValue;
+import com.mofang.chat.task.global.ReturnMessage;
 import com.mofang.chat.task.logic.TaskLogic;
 import com.mofang.chat.task.model.Task;
 import com.mofang.chat.task.redis.TaskRedis;
@@ -52,21 +53,21 @@ public class TaskLogicImpl implements TaskLogic
 			if(StringUtil.isNullOrEmpty(taskName))
 			{
 				result.setCode(ReturnCode.CLIENT_REQUEST_DATA_IS_INVALID);
-				result.setMessage("请输入任务名称");
+				result.setMessage(ReturnMessage.CLIENT_REQUEST_DATA_IS_INVALID);
 				return result;
 			}
 			int type = json.optInt("type", 0);
 			if(0 == type)
 			{
 				result.setCode(ReturnCode.CLIENT_REQUEST_DATA_IS_INVALID);
-				result.setMessage("请选择任务类型");
+				result.setMessage(ReturnMessage.CLIENT_REQUEST_DATA_IS_INVALID);
 				return result;
 			}
 			int event = json.optInt("event", 0);
 			if(0 == event)
 			{
 				result.setCode(ReturnCode.CLIENT_REQUEST_DATA_IS_INVALID);
-				result.setMessage("请选择任务事件");
+				result.setMessage(ReturnMessage.CLIENT_REQUEST_DATA_IS_INVALID);
 				return result;
 			}
 			///0代表不限制等级
@@ -75,14 +76,14 @@ public class TaskLogicImpl implements TaskLogic
 			if(0 == limitTimes)
 			{
 				result.setCode(ReturnCode.CLIENT_REQUEST_DATA_IS_INVALID);
-				result.setMessage("请输入任务可执行次数");
+				result.setMessage(ReturnMessage.CLIENT_REQUEST_DATA_IS_INVALID);
 				return result;
 			}
 			int eventParam = json.optInt("event_param", 0);
 			if(0 == eventParam)
 			{
 				result.setCode(ReturnCode.CLIENT_REQUEST_DATA_IS_INVALID);
-				result.setMessage("请输入事件参数");
+				result.setMessage(ReturnMessage.CLIENT_REQUEST_DATA_IS_INVALID);
 				return result;
 			}
 			int displayOrder = json.optInt("display_order", 1);
@@ -114,7 +115,7 @@ public class TaskLogicImpl implements TaskLogic
 			
 			///返回结果
 			result.setCode(ReturnCode.SUCCESS);
-			result.setMessage("OK");
+			result.setMessage(ReturnMessage.SUCCESS);
 			return result;
 		}
 		catch(Exception e)
@@ -141,14 +142,14 @@ public class TaskLogicImpl implements TaskLogic
 			if(0 == taskId)
 			{
 				result.setCode(ReturnCode.CLIENT_REQUEST_LOST_NECESSARY_PARAMETER);
-				result.setMessage("缺少必要参数");
+				result.setMessage(ReturnMessage.CLIENT_REQUEST_LOST_NECESSARY_PARAMETER);
 				return result;
 			}
 			String taskName = json.optString("name", "");
 			if(StringUtil.isNullOrEmpty(taskName))
 			{
 				result.setCode(ReturnCode.CLIENT_REQUEST_DATA_IS_INVALID);
-				result.setMessage("请输入任务名称");
+				result.setMessage(ReturnMessage.CLIENT_REQUEST_DATA_IS_INVALID);
 				return result;
 			}
 			///等级0代表不限制等级
@@ -158,14 +159,14 @@ public class TaskLogicImpl implements TaskLogic
 			if(0 == limitTimes)
 			{
 				result.setCode(ReturnCode.CLIENT_REQUEST_DATA_IS_INVALID);
-				result.setMessage("请输入任务可执行次数");
+				result.setMessage(ReturnMessage.CLIENT_REQUEST_DATA_IS_INVALID);
 				return result;
 			}
 			int eventParam = json.optInt("event_param", 0);
 			if(0 == eventParam)
 			{
 				result.setCode(ReturnCode.CLIENT_REQUEST_DATA_IS_INVALID);
-				result.setMessage("请输入事件参数");
+				result.setMessage(ReturnMessage.CLIENT_REQUEST_DATA_IS_INVALID);
 				return result;
 			}
 			String description = json.optString("description", "");
@@ -178,7 +179,7 @@ public class TaskLogicImpl implements TaskLogic
 			if(null == taskInfo)
 			{
 				result.setCode(ReturnCode.TASK_NOT_EXISTS);
-				result.setMessage("任务不存在");
+				result.setMessage(ReturnMessage.TASK_NOT_EXISTS);
 				return result;
 			}
 			
@@ -198,7 +199,7 @@ public class TaskLogicImpl implements TaskLogic
 			
 			///返回结果
 			result.setCode(ReturnCode.SUCCESS);
-			result.setMessage("OK");
+			result.setMessage(ReturnMessage.SUCCESS);
 			return result;
 		}
 		catch(Exception e)
@@ -225,7 +226,7 @@ public class TaskLogicImpl implements TaskLogic
 			if(0 == taskId)
 			{
 				result.setCode(ReturnCode.CLIENT_REQUEST_LOST_NECESSARY_PARAMETER);
-				result.setMessage("缺少必要参数");
+				result.setMessage(ReturnMessage.CLIENT_REQUEST_LOST_NECESSARY_PARAMETER);
 				return result;
 			}
 			///删除任务信息
@@ -233,7 +234,7 @@ public class TaskLogicImpl implements TaskLogic
 			
 			///返回结果
 			result.setCode(ReturnCode.SUCCESS);
-			result.setMessage("OK");
+			result.setMessage(ReturnMessage.SUCCESS);
 			return result;
 		}
 		catch(Exception e)

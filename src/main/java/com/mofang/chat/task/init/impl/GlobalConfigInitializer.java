@@ -37,6 +37,7 @@ public class GlobalConfigInitializer extends AbstractInitializer
 		GlobalConfig.HTTP_CLIENT_GROWUP_CONFIG_PATH = config.get("conf", "http_client_growup_config_path");
 		GlobalConfig.HTTP_CLIENT_CHATSERVICE_CONFIG_PATH = config.get("conf", "http_client_chatservice_config_path");
 		GlobalConfig.HTTP_CLIENT_MEDAL_CONFIG_PATH = config.get("conf", "http_client_medal_config_path");
+		GlobalConfig.RETURN_MESSAGE_CONFIG_PATH = config.get("conf", "return_messsage_config_path");
 		
 		GlobalConfig.CHAT_SERVICE_URL = config.get("api", "chat_service_url");
 		GlobalConfig.GROWUP_USER_UPDATE_URL = config.get("api", "growup_user_update_url");

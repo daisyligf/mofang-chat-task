@@ -1,1 +1,10 @@
 /com/
+/config.ini
+/http_client_chatservice.properties
+/http_client_growup.properties
+/http_client_medal.properties
+/log4j.properties
+/mysql.properties
+/redis_master.properties
+/redis_slave.properties
+/return_message.properties

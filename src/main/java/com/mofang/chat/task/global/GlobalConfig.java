@@ -38,4 +38,6 @@ public class GlobalConfig
 	public static String GROWUP_USER_INFO_URL;
 	
 	public static String MEDAL_COMPLETED_URL;
+	
+	public static String RETURN_MESSAGE_CONFIG_PATH;
 }

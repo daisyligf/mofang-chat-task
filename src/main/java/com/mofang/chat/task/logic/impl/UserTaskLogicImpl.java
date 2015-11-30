@@ -5,6 +5,7 @@ import org.json.JSONObject;
 
 import com.mofang.chat.task.global.ResultValue;
 import com.mofang.chat.task.global.ReturnCode;
+import com.mofang.chat.task.global.ReturnMessage;
 import com.mofang.chat.task.logic.UserTaskLogic;
 import com.mofang.chat.task.service.UserTaskService;
 import com.mofang.chat.task.service.impl.UserTaskServiceImpl;
@@ -58,6 +59,7 @@ public class UserTaskLogicImpl implements UserTaskLogic
 		if(StringUtil.isNullOrEmpty(postData))
 		{
 			result.setCode(ReturnCode.CLIENT_REQUEST_DATA_IS_INVALID);
+			result.setMessage(ReturnMessage.CLIENT_REQUEST_DATA_IS_INVALID);
 			return result;
 		}
 		
@@ -68,14 +70,14 @@ public class UserTaskLogicImpl implements UserTaskLogic
 			if(0L == userId)
 			{
 				result.setCode(ReturnCode.CLIENT_REQUEST_LOST_NECESSARY_PARAMETER);
-				result.setMessage("uid不能为空");
+				result.setMessage(ReturnMessage.CLIENT_REQUEST_LOST_NECESSARY_PARAMETER);
 				return result;
 			}
 			int event = json.optInt("event", 0);
 			if(0 == event)
 			{
 				result.setCode(ReturnCode.CLIENT_REQUEST_LOST_NECESSARY_PARAMETER);
-				result.setMessage("event不能为空");
+				result.setMessage(ReturnMessage.CLIENT_REQUEST_LOST_NECESSARY_PARAMETER);
 				return result;
 			}
 			
@@ -84,7 +86,7 @@ public class UserTaskLogicImpl implements UserTaskLogic
 			
 			///返回结果
 			result.setCode(ReturnCode.SUCCESS);
-			result.setMessage("OK");
+			result.setMessage(ReturnMessage.SUCCESS);
 			return result;
 		}
 		catch(Exception e)
@@ -101,7 +103,7 @@ public class UserTaskLogicImpl implements UserTaskLogic
 		if(!StringUtil.isLong(strUserId))
 		{
 			result.setCode(ReturnCode.CLIENT_REQUEST_DATA_IS_INVALID);
-			result.setMessage("参数无效");
+			result.setMessage(ReturnMessage.CLIENT_REQUEST_DATA_IS_INVALID);
 			return result;
 		}
 		
@@ -114,7 +116,7 @@ public class UserTaskLogicImpl implements UserTaskLogic
 			
 			///返回结果
 			result.setCode(ReturnCode.SUCCESS);
-			result.setMessage("OK");
+			result.setMessage(ReturnMessage.SUCCESS);
 			result.setData(data);
 			return result;
 		}
@@ -133,13 +135,13 @@ public class UserTaskLogicImpl implements UserTaskLogic
 		if(!StringUtil.isLong(strUserId))
 		{
 			result.setCode(ReturnCode.CLIENT_REQUEST_DATA_IS_INVALID);
-			result.setMessage("参数无效");
+			result.setMessage(ReturnMessage.CLIENT_REQUEST_DATA_IS_INVALID);
 			return result;
 		}
 		if(!StringUtil.isInteger(strMedalEvent))
 		{
 			result.setCode(ReturnCode.CLIENT_REQUEST_DATA_IS_INVALID);
-			result.setMessage("参数无效");
+			result.setMessage(ReturnMessage.CLIENT_REQUEST_DATA_IS_INVALID);
 			return result;
 		}
 		
@@ -153,7 +155,7 @@ public class UserTaskLogicImpl implements UserTaskLogic
 			
 			///返回结果
 			result.setCode(ReturnCode.SUCCESS);
-			result.setMessage("OK");
+			result.setMessage(ReturnMessage.SUCCESS);
 			result.setData(data);
 			return result;
 		}
@@ -171,7 +173,7 @@ public class UserTaskLogicImpl implements UserTaskLogic
 		if(!StringUtil.isLong(strUserId))
 		{
 			result.setCode(ReturnCode.CLIENT_REQUEST_DATA_IS_INVALID);
-			result.setMessage("参数无效");
+			result.setMessage(ReturnMessage.CLIENT_REQUEST_DATA_IS_INVALID);
 			return result;
 		}
 		
@@ -184,7 +186,7 @@ public class UserTaskLogicImpl implements UserTaskLogic
 			
 			///返回结果
 			result.setCode(ReturnCode.SUCCESS);
-			result.setMessage("OK");
+			result.setMessage(ReturnMessage.SUCCESS);
 			return result;
 		}
 		catch(Exception e)
@@ -201,7 +203,7 @@ public class UserTaskLogicImpl implements UserTaskLogic
 		if(!StringUtil.isLong(strUserId))
 		{
 			result.setCode(ReturnCode.CLIENT_REQUEST_DATA_IS_INVALID);
-			result.setMessage("参数无效");
+			result.setMessage(ReturnMessage.CLIENT_REQUEST_DATA_IS_INVALID);
 			return result;
 		}
 		
@@ -214,7 +216,7 @@ public class UserTaskLogicImpl implements UserTaskLogic
 			
 			///返回结果
 			result.setCode(ReturnCode.SUCCESS);
-			result.setMessage("OK");
+			result.setMessage(ReturnMessage.SUCCESS);
 			return result;
 		}
 		catch(Exception e)
@@ -231,7 +233,7 @@ public class UserTaskLogicImpl implements UserTaskLogic
 		if(!StringUtil.isLong(strUserId))
 		{
 			result.setCode(ReturnCode.CLIENT_REQUEST_DATA_IS_INVALID);
-			result.setMessage("参数无效");
+			result.setMessage(ReturnMessage.CLIENT_REQUEST_DATA_IS_INVALID);
 			return result;
 		}
 		
@@ -244,7 +246,7 @@ public class UserTaskLogicImpl implements UserTaskLogic
 			
 			///返回结果
 			result.setCode(ReturnCode.SUCCESS);
-			result.setMessage("OK");
+			result.setMessage(ReturnMessage.SUCCESS);
 			return result;
 		}
 		catch(Exception e)
@@ -261,7 +263,7 @@ public class UserTaskLogicImpl implements UserTaskLogic
 		if(!StringUtil.isLong(strUserId))
 		{
 			result.setCode(ReturnCode.CLIENT_REQUEST_DATA_IS_INVALID);
-			result.setMessage("参数无效");
+			result.setMessage(ReturnMessage.CLIENT_REQUEST_DATA_IS_INVALID);
 			return result;
 		}
 		
@@ -274,7 +276,7 @@ public class UserTaskLogicImpl implements UserTaskLogic
 			
 			///返回结果
 			result.setCode(ReturnCode.SUCCESS);
-			result.setMessage("OK");
+			result.setMessage(ReturnMessage.SUCCESS);
 			return result;
 		}
 		catch(Exception e)
@@ -291,7 +293,7 @@ public class UserTaskLogicImpl implements UserTaskLogic
 		if(!StringUtil.isLong(strUserId))
 		{
 			result.setCode(ReturnCode.CLIENT_REQUEST_DATA_IS_INVALID);
-			result.setMessage("参数无效");
+			result.setMessage(ReturnMessage.CLIENT_REQUEST_DATA_IS_INVALID);
 			return result;
 		}
 		
@@ -304,7 +306,7 @@ public class UserTaskLogicImpl implements UserTaskLogic
 			
 			///返回结果
 			result.setCode(ReturnCode.SUCCESS);
-			result.setMessage("OK");
+			result.setMessage(ReturnMessage.SUCCESS);
 			return result;
 		}
 		catch(Exception e)
@@ -321,7 +323,7 @@ public class UserTaskLogicImpl implements UserTaskLogic
 		if(!StringUtil.isLong(strUserId))
 		{
 			result.setCode(ReturnCode.CLIENT_REQUEST_DATA_IS_INVALID);
-			result.setMessage("参数无效");
+			result.setMessage(ReturnMessage.CLIENT_REQUEST_DATA_IS_INVALID);
 			return result;
 		}
 		
@@ -334,7 +336,7 @@ public class UserTaskLogicImpl implements UserTaskLogic
 			
 			///返回结果
 			result.setCode(ReturnCode.SUCCESS);
-			result.setMessage("OK");
+			result.setMessage(ReturnMessage.SUCCESS);
 			return result;
 		}
 		catch(Exception e)
